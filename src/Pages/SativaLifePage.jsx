@@ -1,12 +1,4 @@
-import {useEffect} from "react";
-
 const SativaLifePage = () => {
-    useEffect(() => {
-        document.getElementById('play-button').addEventListener('click', function() {
-
-        });
-    }, [])
-
     return (
         <>
             <section className="reasons">

@@ -42,12 +42,12 @@ const Header = () => {
 
                     <nav className="wsmenu clearfix">
                         <ul className="wsmenu-list">
-                            <li className="nl-simple" aria-haspopup="true"><a href="warsztaty_zdrowia_i_urody.html">Warsztaty zdrowia i urody</a></li>
+                            <li className="nl-simple" aria-haspopup="true"><a href="/warsztaty-zdrowia-i-urody">Warsztaty zdrowia i urody</a></li>
                             <li className="nl-simple" aria-haspopup="true"><a href="/pozostale-uslugi">Pozostałe usługi</a></li>
                             <li className="nl-simple" aria-haspopup="true"><a href="/urzadzenia-pomiarowe">Urządzenia pomiarowe</a></li>
                             <li className="nl-simple" aria-haspopup="true"><a href="/forever">Forever</a></li>
                             <li className="nl-simple" aria-haspopup="true"><a href="/sativa-life">Sativa Life</a></li>
-                            <li className="nl-simple" aria-haspopup="true"><a href="sanoplasma.html">Sanoplasma</a></li>
+                            <li className="nl-simple" aria-haspopup="true"><a href="/sanoplasma">Sanoplasma</a></li>
                             <li className="nl-simple" aria-haspopup="true"><a href="/cennik">Cennik</a></li>
                         </ul>
                     </nav>

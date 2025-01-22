@@ -50,7 +50,7 @@ const MeasuringDevicesPage = () => {
                                         <strong>energię</strong> i <strong>sprawność umysłową</strong>.
                                     </p>
 
-                                    <a href="/sanoplasma.html">Więcej informacji tutaj</a>
+                                    <a href="/sanoplasma">Więcej informacji tutaj</a>
 
                                 </div>
                             </div>
