@@ -1,0 +1,62 @@
+.carousel-item {
+    opacity: 0;
+    transition: opacity 0s ease;
+}
+
+.carousel-item.active {
+    opacity: 1;
+}
+
+.carousel-arrow-custom {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    left: 0;
+}
+
+.fs28px {
+    font-size: 28px;
+}
+
+.fs22px {
+    font-size: 22px;
+}
+
+#about-5 {
+    background-image: url('/images/a2.png');
+    background-size: cover;
+    background-position: center;
+}
+
+.about-me-some-styles {
+    visibility: visible;
+    animation-delay: 0.4s;
+    animation-name: fadeInUp;
+}
+
+.about-me-image-container {
+    visibility: visible;
+    animation-delay: 0.6s;
+    animation-name: fadeInUp;
+}
+
+.play-button {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background: rgba(0, 0, 0, 0.5);
+    border: none;
+    color: white;
+    font-size: 24px;
+    padding: 10px 20px;
+    cursor: pointer;
+    border-radius: 50%;
+}
+
+.zywa-woda-tlo {
+    background-image: url(/images/żywawodatlo.png);
+    background-size: auto;
+    background-position: center;
+    height: auto;
+}
