@@ -136,10 +136,7 @@ const SativaLifePage = () => {
                         <p>W celu konsultacji lub umówienia spotkania zadzwoń lub napisz:</p>
                         <p>Skontaktuj się pod numerem telefonu: <a href="tel:+48791852526"><strong>791 85 25 26</strong></a>
                         </p>
-                        <p>Bądź meilowo: <a
-                            href="/cdn-cgi/l/email-protection#245456454f505d475e4a45574548474d456453540a5448"><strong><span
-                            className="__cf_email__"
-                            data-cfemail="acdcdecdc7d8d5cfd6c2cddfcdc0cfc5cdecdbdc82dcc0">[email&#160;protected]</span></strong></a>
+                            <p>Bądź meilowo: <a href="mailto:praktycznasalcia@wp.pl"><strong><span>praktycznasalcia@wp.pl</span></strong></a>
                         </p>
                     </div>
                 </div>

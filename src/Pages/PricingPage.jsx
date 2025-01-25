@@ -118,16 +118,22 @@ const PricingPage = () => {
                     </div>
                     <div className="row">
                         <div className="col-md-3 mb-4">
-                            <img src="/images/cennik1.jpg" alt="Image 1" className="img-fluid"/>
+                            <img src="/images/content/cennik/konsultacja.jpg" alt="Image 1" className="img-fluid"/>
                         </div>
                         <div className="col-md-3 mb-4">
-                            <img src="/images/cennik2.jpg" alt="Image 2" className="img-fluid"/>
+                            <img src="/images/content/cennik/pozostale.jpg" alt="Image 2" className="img-fluid"/>
                         </div>
                         <div className="col-md-3 mb-4">
-                            <img src="/images/cennik3.jpg" alt="Image 3" className="img-fluid"/>
+                            <img src="/images/content/cennik/biorezonans.png" alt="Image 3" className="img-fluid"/>
                         </div>
                         <div className="col-md-3 mb-4">
-                            <img src="/images/cennik4.jpg" alt="Image 4" className="img-fluid"/>
+                            <img src="/images/content/cennik/pakiet_podstawowy.png" alt="Image 4" className="img-fluid"/>
+                        </div>
+                        <div className="col-md-3 mb-4">
+                            <img src="/images/content/cennik/pakiet_szczegolowy.png" alt="Image 4" className="img-fluid"/>
+                        </div>
+                        <div className="col-md-3 mb-4">
+                            <img src="/images/content/cennik/sonoplasma.jpg" alt="Image 4" className="img-fluid"/>
                         </div>
                     </div>
                 </div>
