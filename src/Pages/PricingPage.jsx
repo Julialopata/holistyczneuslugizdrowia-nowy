@@ -108,36 +108,73 @@ const PricingPage = () => {
                 {/* End container */}
             </section>
 
-            {/* Sekcja z dodanymi zdjęciami */}
-            <section id="usługi" className="usługi division">
-                <div className="container">
-                    <div className="row">
-                        <div className="col-md-12 text-center">
-                            <h2 className="h2-xs" style={{fontFamily: 'Arial, Helvetica, sans-serif'}}>Usługi</h2>
-                        </div>
-                    </div>
-                    <div className="row">
-                        <div className="col-md-3 mb-4">
-                            <img src="/images/content/cennik/konsultacja.jpg" alt="Image 1" className="img-fluid"/>
-                        </div>
-                        <div className="col-md-3 mb-4">
-                            <img src="/images/content/cennik/pozostale.jpg" alt="Image 2" className="img-fluid"/>
-                        </div>
-                        <div className="col-md-3 mb-4">
-                            <img src="/images/content/cennik/biorezonans.png" alt="Image 3" className="img-fluid"/>
-                        </div>
-                        <div className="col-md-3 mb-4">
-                            <img src="/images/content/cennik/pakiet_podstawowy.png" alt="Image 4" className="img-fluid"/>
-                        </div>
-                        <div className="col-md-3 mb-4">
-                            <img src="/images/content/cennik/pakiet_szczegolowy.png" alt="Image 4" className="img-fluid"/>
-                        </div>
-                        <div className="col-md-3 mb-4">
-                            <img src="/images/content/cennik/sonoplasma.jpg" alt="Image 4" className="img-fluid"/>
-                        </div>
-                    </div>
-                </div>
-            </section>
+            
+            <div class="pricing-container">
+            <section id="wizyta-konsultacja-cennik">
+  <h2>Wizyta - Konsultacja</h2>
+  <ul>
+    <li>Pierwsza wizyta, konsultacja – <strong>100 zł</strong></li>
+    <li>Z założeniem karty klienta FOREVER – <strong>60 zł</strong></li>
+    <li>Z założeniem karty klienta Sativa – <strong>60 zł</strong></li>
+    <li>Wizyta kontrolna – <strong>50 zł</strong></li>
+    <li>Z kartą klienta Forever i Sativa – wizyta kontrolna – <strong>30 zł</strong></li>
+  </ul>
+</section>
+
+<section id="zywa-woda-cennik">
+  <h2>Urządzenie do produkcji „Żywej Wody”</h2>
+  <p>Zapytaj o urządzenie do produkcji „Żywej Wody”.</p>
+</section>
+
+<section id="doradztwo-konopne-cennik">
+  <h2>Doradztwo konopne w ujęciu CBD</h2>
+  <p>Dobór odpowiedniego olejku i dawki.</p>
+  <p><strong>Usługa zawarta w cenie produktu.</strong></p>
+</section>
+
+<section id="sanoplasma-cennik">
+  <h2>Sanoplasma 3</h2>
+  <ul>
+    <li>Scan i biofeedback (2 godziny) – <strong>180 zł</strong></li>
+    <li>Terapia spersonalizowana (do 3 godzin) – <strong>180 zł</strong></li>
+    <li>Zakup pakietu 10 sesji (2 sesje gratis) – <strong>1440 zł</strong></li>
+    <li>1 godzina terapii – <strong>60 zł</strong></li>
+    <li>Do każdej sesji „Żywa Woda” – <strong>GRATIS</strong></li>
+  </ul>
+</section>
+
+<section id="pozostale-uslugi-cennik">
+  <h2>Pozostałe usługi</h2>
+  <ul>
+    <li>Terapia Zapperem – <strong>50 zł</strong></li>
+    <li>Stworzenie leku bioinformatycznego / biorezonans – <strong>20 zł</strong></li>
+    <li>Metaterapia / Autoterapia biorezonans – jeden zabieg – <strong>50 zł</strong></li>
+    <li>Warsztaty zdrowia i urody – <strong>50 zł</strong></li>
+  </ul>
+</section>
+
+<section id="biorezonans-cennik">
+  <h2>Biorezonans</h2>
+  <ul>
+    <li>Biorezonans QUANTUM – <strong>180 zł</strong></li>
+    <li>Biorezonans MEZATOR M1 – Pakiet podstawowy</li>
+    <li>Biorezonans szczegółowy</li>
+    <li>Biorezonans szczegółowy z doborem indywidualnej terapii</li>
+    <li>Kontrolny biorezonans – <strong>180 zł</strong></li>
+  </ul>
+</section>
+
+<section id="biorezonans-promocja-cennik">
+  <h2>Biorezonans MEZATOR M1 – PROMOCJA</h2>
+  <ul>
+    <li>Pakiet podstawowy (wykaz patogenów, stan wybranych organów) – <del>350 zł</del> <strong>300 zł</strong></li>
+    <li>Biorezonans szczegółowy – pasożyty, stan organów, homeostaza biochemiczna, alergeny, obciążenia energetyczne, hormony, wiek biologiczny, litoterapia, prognoza stanu organizmu na 1 rok, 5 lat</li>
+    <li>Biorezonans szczegółowy z doborem indywidualnej terapii – Fitoterapia, suplementacja, kierunek żywieniowy – <del>400 zł</del> <strong>300 zł</strong></li>
+    <li>Kontrolny biorezonans – <strong>180 zł</strong></li>
+  </ul>
+</section>
+</div>
+
 
         </>
     );

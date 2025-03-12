@@ -1,3 +1,6 @@
+import React from "react";
+import "../App.css";
+
 const SativaLifePage = () => {
     return (
         <>
@@ -23,10 +26,9 @@ const SativaLifePage = () => {
                         <source src="https://www.sativalife.eu/pages/assets/pages/home/video.mp4" type="video/mp4"/>
                         Your browser does not support the video tag.
                     </video>
-                    <img src="/images/sativa_vid_placeholder.png" alt="Video placeholder" id="video-placeholder"
-                         style={{width: '100%'}}/>
-                    <button className="play-button" id="play-button" onClick={() => {
-                        const video = document.getElementById('video');
+                    <div className="video-wrapper">
+    <img src="/images/sativa_vid_placeholder.png" alt="Video placeholder" id="video-placeholder"/>
+    <button className="play-button" id="play-button" onClick={() => {const video = document.getElementById('video');
                         const placeholder = document.getElementById('video-placeholder');
                         const playButton = document.getElementById('play-button');
 
@@ -34,9 +36,13 @@ const SativaLifePage = () => {
                         playButton.style.display = 'none';
                         video.style.display = 'block';
 
-                        video.play();
-                    }}>▶</button>
-                </div>
+                        video.play();  }}>
+        ▶
+    </button>
+</div>
+</div>
+                  
+    
             </section>
             <br/>
 
@@ -103,16 +109,12 @@ const SativaLifePage = () => {
                     <div className="activity-tile">
                         <h3>3</h3>
                         <p>Nie ma kosztów inwestycji i ryzyka finansowego. Jedyne co należy zrobić to zakupić produkt o
-                            równowartości 20 pkt i rozpocząć podróż ku lepszemu zdrowiu. Firma startując zastanawiała
-                            się jaki model sprzedażowy wybrać dla promocji swojego produktu. Wybór padł na model
-                            marketingu sieciowego, najlepszy model biznesowy obecnych czasów. Nie zatrudniasz
-                            współpracowników, nie opłacasz ZUS i innych kosztów.</p>
+                            równowartości 20 pkt i rozpocząć podróż ku lepszemu zdrowiu.</p>
                     </div>
                     <div className="activity-tile">
                         <h3>4</h3>
-                        <p>Pomagamy pięknie żyć. To Ty decydujesz w jakim tempie się rozwijasz. Może to być Twój plan B.
-                            Jednocześnie stawiając na rozwój możesz otrzymać nowy zawód i być może to będzie Twój plan A
-                            - Doradca Konopny w ujęciu CBD. Jest to obszar gwałtownego i dynamicznego rozwoju.</p>
+                        <p>To Ty decydujesz w jakim tempie się rozwijasz. Może to być Twój plan B.
+                            Jednocześnie stawiając na rozwój możesz otrzymać nowy zawód i być może to będzie Twój plan A.</p>
                     </div>
                     <div className="activity-tile">
                         <h3>5</h3>
@@ -124,13 +126,9 @@ const SativaLifePage = () => {
                         <p>Dochód pasywny, który możesz osiągnąć dzięki działalności grupy, którą zaraziłaś/eś do
                             lepszego zdrowia i życia.</p>
                     </div>
-                    <div className="activity-tile">
-                        <h3>7</h3>
-                        <p>Tu możesz wiele ale nic nie musisz.</p>
-                    </div>
+                    
                     <br/>
-                    <br/>
-                    <br/>
+                    
                     <div className="registration-info">
                         <h3>Jak się zarejestrować z możliwością comiesięcznych zniżek?</h3>
                         <p>W celu konsultacji lub umówienia spotkania zadzwoń lub napisz:</p>
@@ -233,19 +231,18 @@ const SativaLifePage = () => {
             </section>
             <br/>
             <br/>
-            <br/>
-            <br/>
-            <section className="chlorofil">
-                <div className="chlorofil-wrapper">
-                    <img src="/images/chlorofil.jpg"/>
-                </div>
-            </section>
+          
             <br/>
             <br />
             <section className="green-header-section">
                 <div className="container">
                     <div className="content-wrapper">
                         <div className="text-wrapper">
+                        <section className="chlorofil">
+                <div className="chlorofil-wrapper">
+                    <img src="/images/CHLOROFIL.jpg"/>
+                </div>
+            </section>
                             <h1>Chlorofil</h1>
                             <p>Jest to produkt premium, wysokiej jakości.<br/>
                                 Co wyróżnia nasz produkt na rynku?<br/>
@@ -345,9 +342,9 @@ const SativaLifePage = () => {
                         Woda alkaliczna jest wodą zasadową,
                         <b>dlatego<br/> nie zakwasza organizmu, a nawet niweluje objawy zakwaszenia.</b></p>
                     <div style={{textAlign: 'center'}}>
-                        <img src="/images/woda.jpg" alt="Zdjęcie 1" style={{width: '300px', height: '200px', margin: '10px'}}/>
-                        <img src="/images/woda3.jpg" alt="Zdjęcie 2" style={{width: '300px', height: '200px', margin: '10px'}}/>
-                        <img src="/images/woda2.jpg" alt="Zdjęcie 3" style={{width: '300px', height: '200px', margin: '10px'}}/>
+                        <img src="/images/Filtry_nowe.jpg" alt="Zdjęcie 1" style={{width: '300px', height: '200px', margin: '10px'}}/>
+                        <img src="/images/zywawoda.jpg" alt="Zdjęcie 2" style={{width: '300px', height: '200px', margin: '10px'}}/>
+                        <img src="/images/woda3.png" alt="Zdjęcie 3" style={{width: '300px', height: '200px', margin: '10px'}}/>
                     </div>
                     <br/>
                     <br/>
@@ -432,7 +429,7 @@ const SativaLifePage = () => {
             </section>
             <section className="movie-section">
                 <div className="movie-container">
-                    <iframe width="660" height="415" src="https://www.youtube.com/embed/KTa_pPojN2s?si=I-7HC5uLOcCFWGkX"
+                    <iframe width="600" height="400" src="https://www.youtube.com/embed/KTa_pPojN2s?si=I-7HC5uLOcCFWGkX"
                             title="YouTube video player" frameBorder="0"
                             allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
                             referrerPolicy="strict-origin-when-cross-origin" allowFullScreen></iframe>

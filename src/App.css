@@ -1,9 +1,10 @@
 #root {
-  max-width: 1280px;
-  margin: 0 auto;
-  padding: 2rem;
-  text-align: center;
+  max-width: 100%;
+  margin: 0;
+  padding: 0;
 }
+
+
 
 .logo {
   height: 6em;
@@ -40,3 +41,1187 @@
 .read-the-docs {
   color: #888;
 }
+
+/* Poprawiony kod responsywności */
+.page-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  padding: 15px;
+  flex-wrap: wrap;
+}
+
+.content-box {
+  width: 100%;  /* Pełna szerokość kontenera */
+  max-width: 600px; /* Nie pozwala na zbyt szeroką treść */
+  min-width: 320px; /* Zapobiega zbyt wąskim kolumnom na telefonach */
+  text-align: justify;
+  padding: 15px;
+  background: white;
+  border-radius: 10px;
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+
+
+
+/* Style dla sekcji activity-section */
+.activity-section {
+  text-align: center;
+  padding: 20px;
+}
+
+.activity-list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 20px;
+}
+
+.activity-tile {
+  background: white;
+  border-radius: 10px;
+  padding: 20px;
+  width: 45%;  /* Zajmuje prawie połowę szerokości ekranu */
+  max-width: 400px; /* Zwiększona maksymalna szerokość */
+  min-width: 250px; /* Zapobiega zbyt wąskim kafelkom */
+  text-align: center;
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+
+/* Style dla sekcji sativa-section */
+.sativa-section {
+  padding: 10px;
+}
+
+.content-wrapper {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 20px;
+}
+
+
+/* Style dla sekcji chlorofil */
+.chlorofil {
+  text-align: center;
+  padding: 20px;
+  background-color: #78f16f04;
+}
+
+.chlorofil-wrapper img {
+  max-width: 100%;
+  height: auto;
+  
+}
+
+
+/* Style dla sekcji green-header-section */
+.green-header-section {
+  background-color: #71e769c3;
+  padding: 20px;
+}
+
+.list-wrapper {
+  margin-top: 20px;
+}
+
+.list-item {
+  margin-bottom: 20px;
+  width: 45%;  /* Zajmuje prawie połowę szerokości ekranu */
+  max-width: 400px; /* Zwiększona maksymalna szerokość */
+  min-width: 250px; /* Zapobiega zbyt wąskim kafelkom */
+  text-align: center;
+}
+
+/* Style dla sekcji water-properties */
+.water-properties {
+  text-align: center;
+  padding: 20px;
+}
+
+.properties-list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 20px;
+}
+
+.property {
+  background: white;
+  border-radius: 10px;
+  padding: 20px;
+  max-width: 300px;
+  text-align: center;
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Media query dla telefonów */
+@media screen and (max-width: 768px) {
+  .content-box {
+    font-size: 16px;
+    width: 90%;
+    padding: 10px;
+  }
+
+  @media screen and (max-width: 600px) {
+    .activity-tile {
+      width: 90%;  /* Na telefonach kafelki zajmą całą szerokość */
+    }
+  }
+
+  @media screen and (max-width: 600px) {
+    .property {
+      width: 90%;  /* Na telefonach kafelki zajmą całą szerokość */
+    }
+  }
+
+  @media screen and (max-width: 600px) {
+    .list-item {
+      width: 90%;  /* Na telefonach kafelki zajmą całą szerokość */
+    }
+  }
+
+  @media screen and (max-width: 600px) {
+    .list-wrapper {
+      width: 90%;  /* Na telefonach kafelki zajmą całą szerokość */
+    }
+  }
+
+  @media screen and (max-width: 600px) {
+    .sativa-section {
+      width: 90%;  /* Na telefonach kafelki zajmą całą szerokość */
+    }
+  }
+  
+  @media screen and (max-width: 600px) {
+    .section-with-icons {
+      width: 90%;  /* Na telefonach kafelki zajmą całą szerokość */
+    }
+  }
+
+  @media screen and (max-width: 600px) {
+    .section-with-icons {
+      width: 90%;  /* Na telefonach kafelki zajmą całą szerokość */
+    }
+  }
+  
+  
+  .page-container {
+    width: 100%;
+    padding: 5px;
+  }
+
+  .content-wrapper {
+    flex-direction: column;
+  }
+}
+
+
+
+
+
+/* Style dla sekcji section-with-icons */
+.section-with-icons {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 20px;
+  padding: 20px;
+}
+
+.text-with-icon {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+  width: 45%;
+  min-width: 300px;
+  max-width: 400px;
+  padding: 15px;
+  background: white;
+  border-radius: 10px;
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+.icon-container {
+  font-size: 30px;
+  color: #48a65e;
+}
+
+.section {
+  text-align: center;
+  padding: 20px;
+}
+
+.tiles-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 20px;
+}
+
+.tile {
+  background: white;
+  border-radius: 10px;
+  padding: 20px;
+  width: 45%;
+  max-width: 400px;
+  min-width: 250px;
+  text-align: center;
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+.aloes {
+  text-align: center;
+}
+
+.background-aloes {
+  padding: 0px;
+  margin: auto;
+  border-radius: 10px;
+  padding: 20px;
+  width: 45%;
+  max-width: 400px;
+  min-width: 250px;
+  text-align: center;
+ 
+  
+}
+
+.background-aloes1 {
+  padding: 0px;
+  margin: auto;
+
+}  
+
+.content-wrapper {
+  display: flex;
+
+  align-items: center;
+  
+  
+}
+
+.background-aloes1 {
+  margin-bottom: 0; /* Usuwa zbędne dolne marginesy */
+  padding-bottom: 0; /* Zapobiega zbędnym odstępom */
+}
+
+.bottom-text {
+  margin-top: 0;
+  padding-top: 0;
+}
+
+@media screen and (max-width: 768px) {
+  .background-aloes1 {
+      padding-bottom: 10px;
+  }
+
+}
+
+
+/* Usuń nadmiarowy margines w wersji desktopowej */
+.bottom-text, .background-aloes, .background-aloes1 {
+  margin-bottom: 0;
+  padding-bottom: 0;
+}
+
+@media screen and (max-width: 600px) {
+  /* Ustawienie poprawnego odstępu między sekcjami */
+  .bottom-text, .background-aloes, .background-aloes1 {
+      margin-bottom: 20px;
+      padding-bottom: 20px;
+  }
+}
+
+  /* Zapobieganie nakładaniu się elementów */
+  .bottom-text {
+      position: relative;
+      z-index: 5;
+      background: white;
+      padding: 10px;
+  }
+
+
+ .convex-squares {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 10px;
+}
+
+
+
+ .convex-square {
+  background: white;
+  border-radius: 10px;
+  padding: 15px;
+  width: 30%;
+  min-width: 250px;
+  max-width: 350px;
+  text-align: center;
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+
+
+@media screen and (max-width: 768px) {
+  .text-with-icon, .tile, .square, .convex-square, .background-aloes1, .bottom-text {
+    width: 90%;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .text-with-icon, .tile, .square, .convex-square {
+    width: 90%;
+  }
+}
+@media screen and (max-width: 600px) {
+  .bottom-text {
+    width: 90%;
+  }
+}
+@media screen and (max-width: 600px) {
+ .background-aloes1 {
+    width: 90%;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .convex-squares {
+    width: 90%;
+  }
+  
+
+}
+
+
+
+.consultation-box {
+  background: white;
+  padding: 15px 30px; /* Mniejsze paddingi, by zwęzić sekcję */
+  border-radius: 15px;
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
+  max-width: 800px; /* Zmniejszona szerokość */
+  border: 2px solid #ccc;
+  text-align: center;
+}
+
+.consultation-section {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 40px 20px;
+  
+}
+
+
+.profile-section {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.profile-img {
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+  margin-bottom: 10px;
+}
+
+.contact-buttons {
+  margin-top: 5px;
+}
+
+.btn {
+  display: inline-block;
+  padding: 5px 10px;
+  margin: 5px;
+  border-radius: 10px;
+  text-decoration: none;
+  font-weight: bold;
+  color: white;
+}
+
+.messenger {
+  background-color: #0078FF;
+}
+
+.email {
+  background-color: #64cc52;
+}
+
+.note {
+  margin-top: 15px;
+  font-size: 10px;
+  color: #666;
+}
+
+/* Stylizacja nagłówka */
+.title {
+  font-size: 28px;
+  font-weight: bold;
+  color: #222;
+  margin-bottom: 15px;
+}
+
+/* Stylizacja tekstu */
+.description {
+  font-size: 18px;
+  color: #444;
+  line-height: 1.6;
+  margin-bottom: 10px;
+}
+
+/* Stylizacja obrazka certyfikatu */
+.certificate-img {
+  max-width: 65%;
+  border-radius: 10px;
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.2);
+}
+
+/* Ulepszenie responsywności */
+@media (max-width: 768px) {
+  .row {
+      flex-direction: column;
+      text-align: center;
+  }
+  .col-md-5 {
+      margin-top: 20px;
+  }
+}
+
+/* Globalne ustawienia */
+.container {
+  max-width: 1200px;
+  margin: auto;
+  padding: 40px 20px;
+}
+
+/* Układ sekcji urządzeń */
+.device-row {
+  display: flex;
+  align-items: center;
+  gap: 30px;
+  margin-bottom: 50px;
+  padding: 20px;
+  border-radius: 15px;
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+  background: white;
+}
+
+.device-row.reverse {
+  flex-direction: row-reverse;
+}
+
+/* Tekst sekcji */
+.device-text {
+  flex: 1;
+  padding: 20px;
+}
+
+.device-title {
+  font-size: 26px;
+  color: #003366;
+  margin-bottom: 10px;
+}
+
+.section-id {
+  font-size: 16px;
+  color: #0078ff;
+  font-weight: bold;
+  text-transform: uppercase;
+  display: block;
+  margin-bottom: 5px;
+}
+
+/* Obrazy urządzeń */
+.device-image {
+  flex: 1;
+  text-align: center;
+}
+
+.device-image img {
+  max-width: 100%;
+  height: auto;
+  border-radius: 10px;
+}
+
+/* Link "Więcej informacji" */
+.more-link {
+  display: inline-block;
+  margin-top: 15px;
+  color: #0078ff;
+  font-weight: bold;
+  text-decoration: none;
+  border-bottom: 2px solid #0078ff;
+  padding-bottom: 2px;
+}
+
+.more-link:hover {
+  color: #0056b3;
+  border-bottom-color: #0056b3;
+}
+
+/* Responsywność */
+@media (max-width: 768px) {
+  .device-row {
+      flex-direction: column;
+      text-align: center;
+      padding: 15px;
+  }
+
+  .device-row.reverse {
+      flex-direction: column;
+  }
+
+  .device-text {
+      padding: 10px;
+  }
+}
+
+/* Sekcja wideo */
+.movie-section {
+    text-align: center;
+    padding: 40px 20px;
+    background-color: #f8f8f8;
+}
+
+/* Kontener na wideo */
+.movie-container {
+    position: relative;
+    max-width: 800px;
+    margin: auto;
+}
+
+/* Wideo dostosowane do różnych ekranów */
+.movie-container iframe {
+    width: 800px;
+    height: 450px; /* Domyślna wysokość na większych ekranach */
+    border-radius: 10px;
+}
+
+/* Tekst w sekcji */
+.caption {
+    max-width: 800px;
+    margin: 20px auto;
+    font-size: 18px;
+    line-height: 1.6;
+    color: #444;
+    text-align: center;
+}
+
+/* 🔹 MEDIA QUERIES - Dostosowanie do telefonów */
+@media (max-width: 768px) {
+    .movie-container iframe {
+        height: 500px; /* Mniejsze wideo na tabletach */
+        width: 300px;
+    }
+
+    .caption {
+        font-size: 16px;
+        padding: 0 10px;
+    }
+}
+
+@media (max-width: 480px) {
+    .movie-container iframe {
+        height: 200px; /* Jeszcze mniejsze wideo na telefonach */
+        width: 300px;
+    }
+
+    .caption {
+        font-size: 14px;
+    }
+}
+
+
+@media (max-width: 600px) {
+  .zywa-woda-tlo {
+    padding: 10px;
+  }
+  
+}
+
+/* Główna sekcja Sanoplasma */
+.sanoplasma-section {
+  text-align: center;
+  padding: 40px 20px;
+  background-color: #f8f8f8;
+}
+
+/* Nagłówki */
+.sanoplasma-section h1 {
+  font-size: 32px;
+  color: #003366;
+  margin-bottom: 20px;
+}
+
+/* Galeria zdjęć */
+.images {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  flex-wrap: wrap; /* Dzięki temu zdjęcia układają się pod sobą na małych ekranach */
+}
+
+.images img {
+  max-width: 30%;
+  height: auto;
+  border-radius: 10px;
+}
+
+/* Styl tekstu */
+.sanoplasma-section p {
+  max-width: 900px;
+  margin: 20px auto;
+  font-size: 18px;
+  line-height: 1.6;
+  color: #444;
+  text-align: justify;
+}
+
+/* Sekcja filmu */
+.movie-container {
+  text-align: center;
+  margin: 30px auto;
+  max-width: 800px;
+}
+
+.movie-container video {
+  width: 100%;
+  height: auto;
+  border-radius: 10px;
+}
+
+/* Sekcja z obrazkiem i tekstem */
+.text-and-image {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  justify-content: center;
+  margin-top: 40px;
+}
+
+.jpg img {
+  width: 400px;
+  max-width: 100%;
+  border-radius: 10px;
+}
+
+.text {
+  max-width: 500px;
+  text-align: justify;
+}
+
+/* Lista korzyści */
+.benefits-list {
+
+  max-width: 900px;
+  margin: 20px auto;
+  font-size: 18px;
+  line-height: 1.6;
+  color: #444;
+  text-align: justify;
+}
+
+.benefit {
+  flex: 1;
+  min-width: 300px;
+  background: #f8f8f8;
+  padding: 20px;
+  border-radius: 10px;
+}
+
+.benefit h3 {
+  font-size: 22px;
+  color: #003366;
+  margin-bottom: 15px;
+}
+
+.benefit ul {
+  list-style: none;
+  padding: 0;
+}
+
+.benefit ul li {
+  font-size: 18px;
+  padding: 5px 0;
+}
+
+/* Sekcja bezpieczeństwa */
+.organism-safety {
+  text-align: center;
+  padding: 40px 20px;
+}
+
+.organism-safety h2 {
+  font-size: 28px;
+  color: #003366;
+  margin-bottom: 20px;
+}
+
+.organism-safety p {
+  max-width: 900px;
+  margin: auto;
+  font-size: 18px;
+  text-align: justify;
+}
+
+/* 🔹 MEDIA QUERIES - Dostosowanie do telefonów */
+@media (max-width: 768px) {
+  .images img {
+      max-width: 45%;
+  }
+
+  .text-and-image {
+      flex-direction: column;
+      text-align: center;
+  }
+
+  .jpg img {
+      width: 100%;
+  }
+
+  .benefits-list {
+      flex-direction: column;
+      align-items: center;
+  }
+
+  .benefit {
+      width: 90%;
+  }
+
+  .organism-safety p {
+      font-size: 16px;
+  }
+
+  .movie-container {
+      max-width: 100%;
+  }
+
+  .movie-container video {
+      height: 250px;
+  }
+}
+
+@media (max-width: 480px) {
+  .images img {
+      max-width: 90%;
+  }
+
+  .sanoplasma-section h1 {
+      font-size: 26px;
+  }
+
+  .sanoplasma-section p,
+  .organism-safety p {
+      font-size: 14px;
+  }
+
+  .movie-container video {
+      height: 200px;
+  }
+}
+
+/* Sekcja eBooka */
+.ebook-preview {
+  text-align: center;
+  padding: 50px 20px;
+  background: #f8f8f8;
+}
+
+/* Nagłówek i tekst */
+.ebook-preview h2 {
+  font-size: 20px;
+  color: #57c457;
+}
+
+.ebook-preview p {
+  font-size: 15px;
+  color: #444;
+  margin-bottom: 20px;
+}
+
+/* Przycisk pobrania */
+.download-btn {
+  display: inline-block;
+  padding: 12px 20px;
+  font-size: 15px;
+  background: #57c2df;
+  color: white;
+  text-decoration: none;
+  border-radius: 5px;
+  font-weight: bold;
+  transition: 0.3s;
+  margin-top: 20px;
+}
+
+.download-btn:hover {
+  background: #0056b3;
+}
+
+/* 🔹 Responsywność dla telefonów */
+@media (max-width: 768px) {
+  .ebook-viewer {
+      height: 400px;
+  }
+
+  .download-btn {
+      font-size: 16px;
+      padding: 10px 18px;
+  }
+}
+
+@media (max-width: 480px) {
+  .ebook-viewer {
+      height: 300px;
+  }
+
+  .ebook-preview h2 {
+      font-size: 24px;
+  }
+
+  .ebook-preview p {
+      font-size: 16px;
+  }
+
+  .download-btn {
+      font-size: 14px;
+      padding: 8px 16px;
+  }
+}
+
+.about-section {
+  background: #f8f8f8;
+  padding: 10px 20px;
+}
+
+/* Tekst */
+.about-me-text {
+  max-width: 90%;
+  margin: auto;
+}
+
+.about-me-text h3 {
+  font-size: 25px;
+  color: #003366;
+}
+
+.about-me-text p {
+  font-size: 15px;
+  color: #444;
+  line-height: 1.6;
+}
+
+.motto {
+  font-style: italic;
+  color: #57c2df;
+  font-weight: bold;
+  font-size: 20px;
+  text-align: center;
+  margin-top: 20px;
+}
+
+/* Kompetencje */
+.competencies-title {
+  font-size: 20px;
+  color: #003366;
+  margin-top: 30px;
+}
+
+.competencies-list {
+  list-style: none;
+  padding: 0;
+}
+
+.competencies-list li {
+  font-size: 15px;
+  color: #444;
+  margin-bottom: 10px;
+  display: flex;
+  align-items: center;
+}
+
+.competencies-list i {
+  color: #54a743;
+  font-size: 15px;
+  margin-right: 10px;
+}
+
+/* Zdjęcie */
+.about-image {
+  width: 70%;
+  max-width: 450px;
+  border-radius: 10px;
+  box-shadow: 2px 2px 15px rgba(0, 0, 0, 0.1);
+}
+
+/* Responsywność */
+@media (max-width: 768px) {
+  .about-me-text {
+      max-width: 100%;
+      text-align: center;
+  }
+
+  .about-image {
+      max-width: 300px;
+      margin-top: 20px;
+  }
+
+  .competencies-list li {
+      font-size: 16px;
+  }
+}
+
+/* Sekcja galerii */
+.gallery-section {
+  background-color: #f5f5f5;
+  padding: 80px 20px;
+}
+
+/* Nagłówek */
+.section-header h2 {
+  font-size: 30px;
+  color: #003366;
+  margin-bottom: 40px;
+  text-transform: uppercase;
+  font-weight: bold;
+}
+
+/* Ustawienia dla elementów galerii */
+.gallery-item {
+  position: relative;
+  overflow: hidden;
+  border-radius: 10px;
+  margin-bottom: 20px;
+  transition: transform 0.3s ease-in-out;
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+/*  Efekt powiększenia po najechaniu */
+.gallery-item:hover {
+  transform: scale(1.05);
+}
+
+/*  Styl obrazów */
+.gallery-image {
+  width: 100%;
+  height: auto;
+  display: block;
+  border-radius: 10px;
+  transition: opacity 0.3s ease-in-out;
+}
+
+/*  Efekt przezroczystości po najechaniu */
+.gallery-item:hover .gallery-image {
+  opacity: 0.8;
+}
+
+/*  Styl dla Lightbox */
+[data-lightbox="gallery"] {
+  display: block;
+  text-decoration: none;
+}
+
+/*  Dekoracyjne kropki w tle */
+.decoration {
+  position: absolute;
+  bottom: -50px;
+  left: 50%;
+  transform: translateX(-50%);
+  display: flex;
+  gap: 10px;
+}
+
+.circle-1, .circle-2, .circle-3, .circle-4 {
+  width: 15px;
+  height: 15px;
+  background-color: #57c2df;
+  border-radius: 50%;
+}
+
+/*  Responsywność */
+@media (max-width: 992px) {
+  .gallery-item {
+      margin-bottom: 15px;
+  }
+
+  .section-header h2 {
+      font-size: 28px;
+  }
+}
+
+@media (max-width: 768px) {
+  .gallery-section {
+      padding: 60px 15px;
+  }
+
+  .gallery-item {
+      transform: none !important;
+  }
+
+  .section-header h2 {
+      font-size: 24px;
+  }
+}
+
+.page-transition {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100vh;
+  background: #fff; /* Możesz zmienić kolor tła */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  z-index: 9999;
+  opacity: 1;
+  animation: fadeOut 1.2s forwards;
+}
+
+.transition-logo {
+  width: 150px; /* Dostosuj rozmiar logo */
+  height: auto;
+  animation: logoScale 1s ease-in-out;
+}
+
+@keyframes fadeOut {
+  0% { opacity: 1; }
+  100% { opacity: 0; visibility: hidden; }
+}
+
+@keyframes logoScale {
+  0% { transform: scale(1); }
+  50% { transform: scale(1.1); }
+  100% { transform: scale(1); }
+}
+
+
+
+/* Kontener główny dla całego cennika */
+.pricing-container {
+  max-width: 900px;
+  margin: 0 auto;
+}
+
+/* Stylizacja tylko sekcji cennika */
+.pricing-container section {
+  padding: 30px;
+  margin: 20px 0;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease-in-out;
+}
+
+.pricing-container section:hover {
+  transform: translateY(-5px);
+}
+
+/* Stylizacja nagłówków w cenniku */
+.pricing-container h2 {
+  font-size: 24px;
+  color: #333;
+  margin-bottom: 15px;
+  padding-bottom: 5px;
+  border-bottom: 2px solid #4CAF50;
+}
+
+/* Stylizacja list w cenniku */
+.pricing-container ul {
+  list-style: none;
+  padding: 0;
+}
+
+.pricing-container ul li {
+  font-size: 18px;
+  padding: 10px 0;
+  border-bottom: 1px solid #ddd;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+/* Cena w liście */
+.pricing-container ul li strong {
+  font-size: 20px;
+  color: #4CAF50;
+  font-weight: bold;
+}
+
+/* Przekreślona cena (dla promocji) */
+.pricing-container del {
+  color: #d9534f;
+  font-size: 16px;
+  margin-right: 8px;
+}
+
+/* Stylizacja dla każdej sekcji cennika */
+
+/* Wizyta - Konsultacja */
+.pricing-container #wizyta-konsultacja-cennik {
+  background-color: #e8f5e9;
+  border-left: 5px solid #4CAF50;
+}
+
+/* Żywa Woda */
+.pricing-container #zywa-woda-cennik {
+  background-color: #e3f2fd;
+  border-left: 5px solid #2196F3;
+}
+
+/* Doradztwo Konopne */
+.pricing-container #doradztwo-konopne-cennik {
+  background-color: #ffebee;
+  border-left: 5px solid #e53935;
+}
+
+/* Sanoplasma */
+.pricing-container #sanoplasma-cennik {
+  background-color: #fff3e0;
+  border-left: 5px solid #FB8C00;
+}
+
+/* Pozostałe usługi */
+.pricing-container #pozostale-uslugi-cennik {
+  background-color: #ede7f6;
+  border-left: 5px solid #673AB7;
+}
+
+/* Biorezonans */
+.pricing-container #biorezonans-cennik {
+  background-color: #fbe9e7;
+  border-left: 5px solid #FF5722;
+}
+
+/* Biorezonans PROMOCJA */
+.pricing-container #biorezonans-promocja-cennik {
+  background-color: #fffde7;
+  border-left: 5px solid #FBC02D;
+}
+
+/* Responsywność */
+@media (max-width: 768px) {
+  .pricing-container section {
+      padding: 20px;
+  }
+
+  .pricing-container h2 {
+      font-size: 22px;
+  }
+
+  .pricing-container ul li {
+      font-size: 16px;
+      flex-direction: column;
+      align-items: flex-start;
+  }
+
+  .pricing-container ul li strong {
+      font-size: 18px;
+  }
+}
+

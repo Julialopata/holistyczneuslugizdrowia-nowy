@@ -1,10 +1,16 @@
+import React from "react";
+import "../App.css";
+
+
+
+
 const ForeverPage = () => {
     return (
         <>
             <section id="center-image" className="section">
                 <div className="container-fluid">
                     <div className="row justify-content-center">
-                        <div className="col-md-12">
+                        <div className="col-md-7">
                             <img src="/images/aloesss.jpg" alt="Zdjęcie na całej stronie" className="img-fluid w-100"/>
                             <div className="text-center mt-4">
                                 <br/>
@@ -13,9 +19,8 @@ const ForeverPage = () => {
                                     <strong><span
                                         style={{fontSize: '22px'}}
                                     >Karta Klienta Forever</span></strong> uprawnia Cię
-                                    między innymi do
-                                    <strong><span
-                                        style={{fontSize: '22px'}}
+                                    między innymi do <strong><span
+                                        style={{fontSize: '22px'}} 
                                     >zniżek w moim gabinecie</span></strong>,<br/>
                                     ale to jeszcze nie koniec korzyści jakie ona przynosi.<br/>
                                     Posiadając kartę klienta możesz wiele więcej:
@@ -26,16 +31,15 @@ const ForeverPage = () => {
                 </div>
             </section>
             <br/>
-            <br/>
 
             <section className="section-with-icons">
                 <div className="text-with-icon">
                     <div className="icon-container">
-                        <i className="icon fas fa-tags"></i>
+                     
                     </div>
                     <div className="text text-center">
-                        <p style={{fontSize: '15px'}}>
-                            <strong style={{fontSize: '25px'}}
+                        <p style={{fontSize: '10px'}}>
+                            <strong style={{fontSize: '15px'}}
                             >Zostań klientem i kupuj produkty - 5% lub 30%
                                 taniej</strong><br/>
                             Przekonaj się o wyjątkowości aloesowych produktów na własnej skórze.<br/>
@@ -53,12 +57,12 @@ const ForeverPage = () => {
                 </div>
                 <div className="text-with-icon">
                     <div className="icon-container">
-                        <i className="icon fas fa-hand-holding-usd"></i>
+                    
                     </div>
                     <div className="text text-center">
-                        <p style={{fontSize: '15px'}}
+                        <p style={{fontSize: '8px'}}
                         >
-                            <strong style={{fontSize: '25px'}}
+                            <strong style={{fontSize: '15px'}}
                             >Zarabiaj promując produkty wśród rodziny i
                                 znajomych.</strong>
 
@@ -67,12 +71,12 @@ const ForeverPage = () => {
                 </div>
                 <div className="text-with-icon">
                     <div className="icon-container">
-                        <i className="icon fas fa-users"></i>
+                        
                     </div>
                     <div className="text text-center">
-                        <p style={{fontSize: '15px'}}
+                        <p style={{fontSize: '10px'}}
                         >
-                            <strong style={{fontSize: '25px'}}
+                            <strong style={{fontSize: '15px'}}
                             >Buduj swój biznes tworząc własną sieć klientów i
                                 współpracowników, których łączysz z firmą.</strong><br/>
                             Działalność jest prosta, oparta na jasnych i przejrzystych zasadach.<br/>
@@ -202,91 +206,97 @@ const ForeverPage = () => {
             </section>
 
             <br/>
-            <br/>
-
+            
 
             <section className="aloes">
-                <h1>Dlaczego aloes?</h1>
-                <p>Nie bez przyczyny aloes nazywany jest<strong> rośliną nieśmiertelności</strong> od tysięcy
+                <h3>Dlaczego aloes?</h3>
+                <h4>Nie bez przyczyny aloes nazywany jest<strong> rośliną nieśmiertelności</strong> od tysięcy
                     lat.<br/>
                     Przynosi naszemu organizmowi szereg korzyści, dlatego zajmuje bezkonkurencyjne pierwsze miejsce
-                    na liście <strong>superfood.</strong></p>
+                    na liście <strong>superfood.</strong></h4>
             </section>
             <br/>
 
             <section className="background-aloes">
-                <div className="white-squares">
-                    <div className="square">SILNE DZIAŁANIE PRZECIWZAPALNE</div>
-                    <div className="square">POMAGA W DETOKSYKACJI</div>
-                    <div className="square">PRZYSPIESZA PRZEMIANĘ MATERI</div>
-                    <div className="square">WYGŁADZA I TONIZUJE CERĘ</div>
-                    <div className="square">POBUDZA ODPORNOŚĆ ORGANIZMU</div>
-                    <div className="square">REGULUJE PH ŻOŁĄDKA</div>
-                    <div className="square">ŁAGODZI STANY ZAPALNE</div>
-                    <div className="square">REGULUJE POZIOM CUKRU WE KRWI</div>
-                    <div className="square">WSPOMAGA LECZENIE UKŁADU TRAWIENEGO</div>
-                    <div className="square">ZMNIEJSZA POZIOM ZŁEGO CHOLESTEROLU</div>
-                    <div className="square">REGENERUJE SKÓRĘ I PRZYSPIESZA GOJENIE RAN</div>
-                    <div className="square">OBNIŻA CIŚNIENIE KRWI</div>
+                
+                    <li>SILNE DZIAŁANIE PRZECIWZAPALNE</li>
+                    <li>POMAGA W DETOKSYKACJI</li>
+                    <li>PRZYSPIESZA PRZEMIANĘ MATERI</li>
+                    <li>WYGŁADZA I TONIZUJE CERĘ</li>
+                    <li>POBUDZA ODPORNOŚĆ ORGANIZMU</li>
+                    <li>REGULUJE PH ŻOŁĄDKA</li>
+                    <li>ŁAGODZI STANY ZAPALNE</li>
+                    <li>REGULUJE POZIOM CUKRU WE KRWI</li>
+                    <li>LECZENIE UKŁADU TRAWIENEGO</li>
+                    <li>ZMNIEJSZA POZIOM CHOLESTEROLU</li>
+                    <li>REGENERUJE SKÓRĘ</li>
+                    <li>OBNIŻA CIŚNIENIE KRWI</li>
 
-                </div>
+                
             </section>
-            <br/>
+            
+            <section className="sativa-section">
+    <h1 className="main-header">Co takiego ma w sobie aloes?</h1>
+    <div className="convex-squares">
+        <div className="convex-square">
+            <p><b>96% wody, polisacharydy, tłuszcze</b><br/>w tym kwasy:<br/>
+                − arachidonowy<br/>
+                − kaprylowy<br/>
+                − linolowy<br/>
+                − linolenowy<br/>
+                − palmitynowy<br/>
+                − stearynowy<br/>
+                <b>witaminy z grupy B, C</b>
+            </p>
+        </div>
+        <div className="convex-square">
+            <p><b>Kwasy organiczne</b>, m.in.:<br/>
+                − cytrynowy<br/>
+                − jabłkowy<br/>
+                − winowy<br/>
+                − cynamonowy<br/>
+                − kwas salicylowy<br/>
+                <b>Enzymy roślinne</b><br/>
+                Aminokwasy egzo/endogenne<br/>
+                <b>Kwas foliowy</b>
+            </p>
+        </div>
+        <div className="convex-square">
+            <p><b>Sole mineralne</b>, m.in.:<br/>
+                − wapnia<br/>
+                − cynku<br/>
+                − fosforu<br/>
+                − żelaza<br/>
+                − potasu<br/>
+                − manganu<br/>
+                <b>Biotyna</b><br/>
+                <b>Przeciwutleniacze</b>,<br/>
+                w tym polifenole
+            </p>
+        </div>
+    </div>
+</section>
+<br/>
 
-            <section className="background-aloes1">
-                <h1 className="main-header">Co takiego ma w sobie aloes?</h1>
-                <div className="convex-squares">
-                    <div className="convex-square">
-                        <p><b>96% wody polisacharydy tłuszcze,</b><br/>w tym kwasy:<br/>
-                            − arachidonowy<br/>
-                            − kaprylowy<br/>
-                            − linolowy<br/>
-                            − linolenowy<br/>
-                            − palmitynowy<br/>
-                            − stearynowy<br/>
-                            <b>witaminy z grupy B, C</b></p>
-                    </div>
-                    <div className="convex-square">
-                        <p><b>kwasy organiczne</b>, m.in.:<br/>
-                            − cytrynowy<br/>
-                            − jabłkowy<br/>
-                            − winowy<br/>
-                            − cynamonowy<br/>
-                            − kwas salicylowy<br/>
-                            <b>enzymy roślinne</b><br/>
-                            aminokwasy egzo/endogenne<br/>
-                            <b>kwas foliowy</b></p>
-                    </div>
-                    <div className="convex-square">
-                        <p><b>sole mineralne</b>, m.in.:<br/>
-                            − wapnia<br/>
-                            − cynku<br/>
-                            − fosforu<br/>
-                            − żelaza<br/>
-                            − potasu<br/>
-                            − manganu<br/>
-                            <b>biotyna</b><br/>
-                            <b>przeciwutleniacze</b>,<br/>
-                            w tym polifenole</p>
-                    </div>
-                </div>
-                <br/>
-                <div className="bottom-text">
-                    <h4 style={{fontFamily: "'Your Decorative Font', cursive"}}>Firma posiada patent na
-                        stabilizację miąższu aleosowego.<br/><br/>
-                        <span
-                            style={{color: 'rgb(85, 196, 85)'}}>A co gwarantuje taki patent i certyfikaty?</span><br/><br/>
-                        To, że aloes marki Forever jest biologicznie czynny i zbliżony jakością do<br/>
-                        świeżego prosto z liścia, jednak jest oczyszczony<br/>
-                        z drażniących i uczulających człowieka składników.<br/><br/>
-                        Dzięki temu możemy go bezpiecznie pić i nakładać na skórę.<br/>
-                        A nasza skóra to wizytówka pracy narządów wewnętrznych.</h4>
-                </div>
-            </section>
-            <br/>
-            <br/>
-            <br/>
-            <br/>
+<section className="bottom-text">
+    <h3>
+        Firma posiada patent na stabilizację miąższu aloesowego.<br/>
+        <span style={{ color: 'rgb(85, 196, 85)' }}>
+            A co gwarantuje taki patent i certyfikaty?
+        </span><br/><br/>
+        To, że aloes marki Forever jest biologicznie czynny i zbliżony jakością do
+        świeżego prosto z liścia, jednak jest oczyszczony
+        z drażniących i uczulających człowieka składników.<br/><br/>
+        Dzięki temu możemy go bezpiecznie pić i nakładać na skórę.<br/>
+        A nasza skóra to wizytówka pracy narządów wewnętrznych.
+    </h3>
+</section>
+
+                
+            
+        
+            
+     
         </>
     );
 }

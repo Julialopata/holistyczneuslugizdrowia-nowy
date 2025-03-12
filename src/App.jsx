@@ -10,6 +10,18 @@ import ForeverPage from "./Pages/ForeverPage.jsx";
 import SativaLifePage from "./Pages/SativaLifePage.jsx";
 import SanoplasmaPage from "./Pages/SanoplasmaPage.jsx";
 import HealthAndBeautyWorkshopsPage from "./Pages/HealthAndBeautyWorkshopsPage.jsx";
+import ChlorofilPage from "./Pages/ChlorofilPage";
+import DezodorantPage from "./Pages/DezodorantPage";
+import GalaretkaPage from "./Pages/GalaretkaPage";
+import KonopiePage from "./Pages/KonopiePage";
+import WodaPage from "./Pages/WodaPage";
+import TianDePage from "./Pages/TianDePage.jsx";
+
+
+
+
+
+
 
 const App = () => {
     return (
@@ -24,6 +36,12 @@ const App = () => {
                     <Route path="/cennik" element={<PricingPage />} />
                     <Route path="/sanoplasma" element={<SanoplasmaPage />} />
                     <Route path="/warsztaty-zdrowia-i-urody" element={<HealthAndBeautyWorkshopsPage />} />
+                    <Route path="/chlorofil" element={<ChlorofilPage />} />
+                    <Route path="/dezodorant" element={<DezodorantPage />} />
+                    <Route path="/galaretka" element={<GalaretkaPage />} />
+                    <Route path="/konopie" element={<KonopiePage />} />
+                    <Route path="/woda" element={<WodaPage />} />
+                    <Route path="/TianDe" element={<TianDePage />} />
                     <Route path="/" element={<HomePage />} />
                     <Route path="*" element={<HomePage />} />
                 </Route>

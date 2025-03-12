@@ -21,109 +21,174 @@ const HomePage = () => {
                                 Usługi Zdrowia Małgorzata Salamucha</h5>
                         </div>
                     </div>
+                    <div className="carousel-item">
+                        <img src="/images/carusel11.png" className="d-block w-100" alt="..."/>
+                        <div className="carousel-caption d-none d-md-block"
+                             style={{color: 'rgb(255, 255, 255)', position: 'absolute', top: '230px', left: '50%', transform: 'translateX(-50%)'}}>
+                            <h5 style={{fontWeight: 'bold', textShadow: '10px 10px 12px rgb(5, 2, 38)', fontSize: '40px'}}>Holistyczne
+                                Usługi Zdrowia Małgorzata Salamucha</h5>
+                        </div>
+                    </div>
+                    <div className="carousel-item">
+                        <img src="/images/caruselaa.jpg" className="d-block w-100" alt="..."/>
+                        <div className="carousel-caption d-none d-md-block"
+                             style={{color: 'rgb(255, 255, 255)', position: 'absolute', top: '230px', left: '50%', transform: 'translateX(-50%)'}}>
+                            <h5 style={{fontWeight: 'bold', textShadow: '10px 10px 12px rgb(5, 2, 38)', fontSize: '40px'}}>Holistyczne
+                                Usługi Zdrowia Małgorzata Salamucha</h5>
+                        </div>
+                    </div>
+                    <div className="carousel-item">
+                        <img src="/images/caruselaaa.png" className="d-block w-100" alt="..."/>
+                        <div className="carousel-caption d-none d-md-block"
+                             style={{color: 'rgb(255, 255, 255)', position: 'absolute', top: '230px', left: '50%', transform: 'translateX(-50%)'}}>
+                            <h5 style={{fontWeight: 'bold', textShadow: '10px 10px 12px rgb(5, 2, 38)', fontSize: '40px'}}>Holistyczne
+                                Usługi Zdrowia Małgorzata Salamucha</h5>
+                        </div>
+                    </div>
+                    <div className="carousel-item">
+                        <img src="/images/carusellaa.png" className="d-block w-100" alt="..."/>
+                        <div className="carousel-caption d-none d-md-block"
+                             style={{color: 'rgb(255, 255, 255)', position: 'absolute', top: '230px', left: '50%', transform: 'translateX(-50%)'}}>
+                           
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <br/>
+        <section className="ebook-preview">
+            <div className="container">
+                <h2>Pobierz darmowego eBooka!</h2>
+                <p>Odkryj sekrety zdrowia i popraw swoje samopoczucie dzięki sprawdzonym metodom.</p>
+                {/* Przycisk pobrania */}
+                <a href="/Menopauza_Ebook.pdf" download className="download-btn">📥 Pobierz eBook/ Menopauza</a><br/>
+                <a href="/E-book.pdf" download className="download-btn">📥 Pobierz eBook/ Wypalenie zawodowe</a><br/>
+                <a href="/Odporność_Ebook.pdf" download className="download-btn">📥 Pobierz eBook/ Odporność u dzieci</a>
+            </div>
+        </section>
+            <br/>
+            <br/>
+            <br/>
+            <br/>
+            <br/>
+            <section class="container">
+    <div class="row align-items-center">
+        
+        <div class="col-md-7 text-center text-md-start">
+            <h2 class="title">Firma Godna Zaufania</h2>
+            <p class="description">
+                Z ogromną radością i dumą pragnę podzielić się wspaniałą wiadomością – moja firma 
+                <strong> Holistyczne Usługi Zdrowia</strong> została uhonorowana prestiżowym wyróżnieniem 
+                <strong> "Firma Godna Zaufania"</strong>.
+            </p>
+            <p class="description">
+                Nie byłoby tego wyróżnienia, gdyby nie moi klienci. Dla mnie to nie tylko zaszczyt, 
+                ale również potwierdzenie, że jeśli robimy coś z pasją i miłością, inni nas doceniają.
+            </p>
+            <p class="description">
+                Dziękuję za zaufanie, za wszystkie opinie. Doceniam każdy głos, który motywuje i 
+                napędza do rozwoju, szukania jeszcze lepszych rozwiązań. 
+                Zapraszam do korzystania z szerokiej oferty gabinetu.
+            </p>
+        </div>
+
+        
+        <div class="col-md-5 text-center">
+            <img src="/images/FGZ1.jpg" class="img-fluid certificate-img" alt="Certyfikat Firma Godna Zaufania"/>
+        </div>
+    </div>
+</section>
+
+            <section className="orly-medycyny">
+    <h2>Orły Medycyny</h2>
+    <p className="orly-description">
+        Holistyczne Usługi Zdrowia zostały uhonorowane prestiżową nagrodą <strong>"Orły Medycyny 2024"</strong>.
+        To wyróżnienie potwierdza jakość świadczonych usług i zaufanie klientów.<br/><br/>
+        Orły to wyjątkowa nagroda, którą mogą pochwalić się tylko najlepsze firmy, które cechują się profesjonalizmem
+        i zapewniają najwyższą jakość usług. Dołączenie do programu to doskonały sposób na zakomunikowanie innym,
+        że firma jest na najwyższym poziomie. Tutaj najważniejsze są głosy klientów, którzy rekomendują 
+        uczestników w Internecie. To oni są siłą napędową tego programu i jedynym w swoim rodzaju jury,
+        który ocenia konkretną firmę.
+    </p>
+    <div className="orly-container">
+        <div className="orly-item">
+            <img src="/images/orly1.jpg" alt="Orły Medycyny 1" />
+        </div>
+        <div className="orly-item">
+            <img src="/images/orly2.jpg" alt="Orły Medycyny 2" />
+        </div>
+    </div>
+</section>
+<section class="consultation-section">
+    <div class="consultation-box">
+
+        <p>Napisz mi, co chcesz osiągnąć – porozmawiamy o tym, co mogę Ci zaproponować</p>
+
+        <div class="profile-section">
+            <img src="/images/profil.jpg" alt="Naturopata Małgorzata Salamucha" class="profile-img"/>
+            <h5>Naturopata Małgorzata Salamucha</h5>
+        </div>
+
+        <div class="contact-buttons">
+    
+    <a href="https://m.me/holistyczneuslugizdrowia" class="btn messenger">Napisz przez Messenger</a>
+
+    
+    <a href="mailto:praktycznasalcia@wp.pl?subject=Zapytanie%20o%20konsultację&body=Dzień%20dobry,%0AChciałbym%20umówić%20się%20na%20konsultację."
+       class="btn email">Napisz e-mail</a>
+</div>
+
+
+        <p class="note">Na wiadomości odpisuję codziennie – a więc pisz śmiało</p>
+    </div>
+</section>
+            <br/>
+            <section id="about-5" className="about-section pt-100 pb-100">
+    <div className="container">
+        <div className="row d-flex align-items-center">
+            {/* TEKST */}
+            <div className="col-lg-6">
+                <div className="txt-block wow fadeInUp about-me-text" data-wow-delay="0.4s">
+                    <span className="section-id blue-color">O mnie</span>
+                    <h3 className="h3-md steelblue-color">O mnie</h3>
+                    
+                    <p>
+                        <strong>Małgorzata Salamucha</strong> – jestem naturopatą, holistycznym doradcą żywieniowym,
+                        doradcą suplementacji, doradcą konopnym w ujęciu CBD oraz doradcą hydroterapii w obszarze
+                        "żywej wody". Kod zawodu uzyskałam w Polskim Centrum Szkoleniowym w Rybniku.
+                    </p>
+                    <p>
+                        Specjalizację doradcy konopnego w ujęciu CBD ukończyłam w Instytucie Rozwoju i Nauki WST.S.A.
+                        Ustawicznie poszerzam swoją wiedzę poprzez kursy i szkolenia, m.in. organizowane przez Mauricz Training Center.
+                    </p>
+                    <p>
+                        Moja ścieżka zawodowa rozpoczęła się od studiowania analityki medycznej. Poszukując rozwiązań zdrowotnych dla
+                        siebie i swojej rodziny, doceniłam medycynę niekonwencjonalną, którą zgłębiam do dziś.
+                    </p>
+                    <p className="motto">
+                        <strong>„Dobrem należy się dzielić”</strong> – kiedyś otrzymałam pomoc, której potrzebowałam. Teraz ja pomagam innym.
+                    </p>
+
+                    {/* Kompetencje */}
+                    <h4 className="competencies-title">Moje kompetencje:</h4>
+                    <ul className="competencies-list">
+                        <li><i className="fas fa-check-circle"></i> Zawodowy Naturopata z informodiagnostyką i informoterapią</li>
+                        <li><i className="fas fa-check-circle"></i> Holistyczny doradca żywieniowy i dietetyczny</li>
+                        <li><i className="fas fa-check-circle"></i> Doradca konopny (CBD) oraz hydroterapii – "żywa woda"</li>
+                        <li><i className="fas fa-check-circle"></i> Prowadzę warsztaty zdrowia i urody</li>
+                    </ul>
                 </div>
             </div>
 
-            {/*Strzałki nawigacji*/}
-            <button className="carousel-control-prev" type="button" data-bs-target="#carouselExampleSlidesOnly"
-                    style={{position: 'absolute', top: '50%', transform: 'translateY(-50%)', right: '0'}}
-                    data-bs-slide="prev">
-                <span className="carousel-control-prev-icon" aria-hidden="true"></span>
-                <span className="visually-hidden">Previous</span>
-            </button>
-            <button className="carousel-control-next" type="button" data-bs-target="#carouselExampleSlidesOnly"
-                    style={{position: 'absolute', top: '50%', transform: 'translateY(-50%)', right: '0'}}
-                    data-bs-slide="next">
-                <span className="carousel-control-next-icon" aria-hidden="true"></span>
-                <span className="visually-hidden">Next</span>
-            </button>
-
-            <br/>
-            <br/>
-            <br/>
-            <br/>
-            <br/>
-
-            <section>
-                <div className="container">
-                    <div className="row">
-                        <div className="col-md-4">
-                            <img src="/images/FGZ1.jpg" className="img-fluid" alt="Zdjęcie 1"/>
-                        </div>
-                        <div className="col-md-8">
-                            <div className="text-center">
-                                <h2 className="fs28px">Firma Godna Zaufania</h2>
-                                <br/>
-                                <p className="fs22px">Z ogromną radością i dumą pragnę podzielić się wspaniałą
-                                    wiadomością – moja firma Holistyczne Usługi Zdrowia<br/>
-                                    Została uhonorowana prestiżowym wyróżnieniem "Firma Godna Zaufania".<br/>
-                                    Nie byłoby tego wyróżnienia gdyby nie moi klienci.<br/>
-                                    Dla mnie to nie tylko zaszczyt, ale również potwierdzenie, że jeśli robimy coś z
-                                    pasją i miłością inni nas doceniają.<br/>
-                                    Dziękuję za zaufanie, za wszystkie opinie. Doceniam każdy głos który motywuje i
-                                    napędza do rozwoju, szukania jeszcze lepszych rozwiązań.<br/>
-                                    Zapraszam do korzystania z szerokiej oferty gabinetu.</p>
-                            </div>
-                        </div>
-                    </div>
+            {/* ZDJĘCIE */}
+            <div className="col-lg-6 text-center">
+                <div className="about-img wow fadeInUp" data-wow-delay="0.6s">
+                    <img className="img-fluid about-image" src="/images/o mnie.jpg" alt="O mnie"/>
                 </div>
-            </section>
+            </div>
+        </div>
+    </div>
+</section>
 
-            <br/>
-            <br/>
-            <br/>
-            <br/>
-
-            {/*Sekcja "O mnie"*/}
-            <section id="about-5" className="pt-100 pb-100 about-section division">
-                <div className="container">
-                    <div className="row d-flex align-items-center">
-                        {/*TEXT BLOCK*/}
-                        <div className="col-lg-6">
-                            <div className="txt-block pc-30 wow fadeInUp about-me-some-styles" data-wow-delay="0.4s">
-                                {/*Section ID*/}
-                                <span className="section-id blue-color">O mnie</span>
-                                {/*Title*/}
-                                <h3 className="h3-md steelblue-color">O mnie</h3>
-                                <p><strong>Małgorzata Salamucha jestem naturopatą, holistycznym doradcą żywieniowym,
-                                    doradcą suplementacji, doradcą konopnym w ujęciu CBD, doradcą hydroterapii w
-                                    obszarze ,,żywej wody”. Kod zawodu uzyskałam w Polskim Centrum Szkoleniowym w
-                                    Rybniku.</strong></p>
-                                <p>Specjalizację - doradca konopny w ujęciu CBD ukończyłam w Instytytucie Rozwoju i
-                                    Nauki WST.S.A. Ustawicznie pogłębiam swoją wiedzę poprzez szkolenia i kursy - między
-                                    innymi organizowane przez Mauricz Training Center.</p>
-                                    <p> Wywodzę się z tzw. "białej medycyny" - studiowałam analitykę medyczną. Los
-                                        jednak tak pokierował moim życiem, że szukając rozwiązań zdrowotnych dla siebie
-                                        i rodziny doceniłam medycynę niekonwencjonalną i od tej pory zgłębiam jej
-                                        tajniki do dziś.</p>
-                                    <p>Moje motto to: "Dobrem należy się dzielić". Kiedyś, gdy naprawdę tego
-                                        potrzebowałam - uzyskałam pomoc - a teraz Ja pomaga kolejnym osobom.</p>
-                                <p>KOMPETENCJE:</p>
-                                <ul>
-                                    <li><span><i className="fas fa-check-circle"></i></span> Zawodowy Naturopata z
-                                        informodiagnostyką i informoterapią
-                                    </li>
-                                    <li><span><i className="fas fa-check-circle"></i></span> Doradca dietetyczny i
-                                        holistyczny doradca żywieniowy
-                                    </li>
-                                    <li><span><i className="fas fa-check-circle"></i></span> Doradca konopny w ujęciu
-                                        CBD, doradca hydroterapii - "żywa woda"
-                                    </li>
-                                    <li><span><i className="fas fa-check-circle"></i></span> Prowadzę warsztaty zdrowia
-                                        i urody.
-                                    </li>
-                                </ul>
-                            </div>
-                        </div>
-                        {/*IMAGE BLOCK*/}
-                        <div className="col-lg-6">
-                            <div className="about-img wow fadeInUp text-center about-me-image-container" data-wow-delay="0.6s">
-                                <img className="img-fluid larger-image" src="/images/o mnie.jpg" alt="about-image"/>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </section>
 
             {/*Sekcja Galerii*/}
             <section id="gallery" className="pt-100 pb-100 gallery-section division" style={{backgroundColor: '#f5f5f5'}}>
@@ -345,6 +410,15 @@ const HomePage = () => {
                                         <a href="/images/c23.jpg" data-lightbox="gallery" data-title="Zdjęcie 23">
                                             <img className="img-fluid gallery-image" src="/images/c23.jpg"
                                                  alt="Zdjęcie 23"/>
+                                        </a>
+                                    </div>
+                                </div>
+                                 {/*Zdjęcie 24*/}
+                                 <div className="col-md-4">
+                                    <div className="gallery-item">
+                                        <a href="/images/c24.jpg" data-lightbox="gallery" data-title="Zdjęcie 24">
+                                            <img className="img-fluid gallery-image" src="/images/c24.jpg"
+                                                 alt="Zdjęcie 24"/>
                                         </a>
                                     </div>
                                 </div>

@@ -23,6 +23,7 @@ html {
   -webkit-font-smoothing: antialiased;
   font-size: 16px;
 } 
+
  
 body {
   font-family: 'Roboto', 'Helvetica Neue', Helvetica, Arial, sans-serif;
@@ -969,11 +970,19 @@ span.id-color {
   position: relative;
  }
 
+ .wsmainwp {
+  display: flex;
+  align-items: center; /* Wyrównuje logo i menu w pionie */
+  justify-content: space-between; /* Rozkłada logo i menu na boki */
+  padding: 10px 0px; /* Dodaje przestrzeń wokół elementów */
+}
+
+ 
 #header-2 .wsmainfull.cloned .wsmenu {
   float: right;
 }
 
-#header-2 .wsmainfull.cloned .desktoplogo {
+#header-2 .wsmainfull.cloned .atoplogo {
   padding: 16px 0px 0px 0px;
   display: block;
 }
@@ -999,7 +1008,7 @@ span.id-color {
 .headtoppart {
   display: block;
   width: 100%;
-  height: 61px;
+  height: 80px;
   margin: 0px auto;
   padding: 0px 0px;
   min-width: 320px;
@@ -2873,7 +2882,6 @@ td.text-right {
 /* ==========================================================================
   10. GALLERY
   =========================================================================== */
-
 #gallery-3 {
   padding-top: 60px;
   padding-bottom: 80px;
@@ -2891,6 +2899,8 @@ td.text-right {
 #gallery-1 .gallery-items-list {
   margin: 0; 
 }
+
+
 
 /*------------------------------------------*/
 /*    FILTER BUTTONS
@@ -5829,19 +5839,62 @@ body {
       padding: 10px 0;
       border-radius: 5px;
   }
-  .video-container {
-    position: relative;
-    width: 50%; 
-    margin: 0 auto; 
-    padding-bottom: 28.125%; 
-    margin-bottom: 20px;
+
+.video-container {
+  position: relative;
+  width: 80%; /* Powiększenie szerokości */
+  max-width: 800px; /* Maksymalna szerokość */
+  margin: 40px auto; /* Wyśrodkowanie na stronie */
+  text-align: center;
 }
+
+.video-wrapper {
+  position: relative;
+  width: 100%;
+}
+
+.video-wrapper img {
+  width: 100%; /* Skalowanie obrazka na całą szerokość kontenera */
+  display: block;
+}
+
 .video-container iframe {
     position: absolute;
     top: 0;
     left: 0;
     width: 100%;
     height: 100%;
+}
+.video-wrapper {
+  position: relative;
+  display: inline-block; /* Zapewnia, że nie zajmuje całej szerokości */
+}
+
+.video-wrapper img {
+  width: 100%; /* Dostosowanie obrazka */
+  display: block;
+}
+
+.play-button {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%); /* Centrowanie */
+  background-color: rgba(0, 0, 0, 0.6); /* Przyciemnione tło */
+  color: white;
+  border: none;
+  border-radius: 50%;
+  width: 60px;
+  height: 60px;
+  font-size: 24px;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.play-button:hover {
+  background-color: rgba(0, 0, 0, 0.8);
 }
 
 .products-section {
@@ -6042,14 +6095,25 @@ body {
 .reasons {
   padding: 50px;
   background-image: url(/images/sativatlo1.png);
-  text-align: center;
+  background-size: cover;  /* Sprawia, że tło wypełnia całą sekcję */
+  background-position: center;  /* Ustawia tło na środek */
+  background-repeat: no-repeat; /* Zapobiega powtarzaniu tła */
 }
 
+
 .reasons h2 {
-  font-size: 24px;
-  color: #333;
+  font-size: 27px;
+  color: #000000; /* Ciemniejszy kolor */
   margin-bottom: 30px;
+  font-weight: bold;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.377); /* Efekt cienia */
+  background-color: rgba(255, 255, 255, 0.7); /* Białe, półprzezroczyste tło */
+  padding: 10px 20px;
+  display: inline-block;
+  border-radius: 10px;
 }
+
+
 
 .reasons ul {
   list-style-type: none;
@@ -6618,7 +6682,7 @@ ul {
 .chlorofil-wrapper {
   max-width: 50%; 
   max-height: 50%; 
-  border: 10px solid #4CAF50; 
+
   border-radius: 10px; 
   overflow: hidden; 
 }
@@ -6629,54 +6693,147 @@ ul {
   max-height: 100%; 
 }
 
+.orly-medycyny {
+  text-align: center;
+  margin: 50px auto;
+  padding: 50px 0;
+  background-color: #f9f9f9;
+}
 
+.orly-medycyny h2 {
+  font-size: 28px;
+  color: #333;
+  margin-bottom: 10px;
+}
 
+.orly-description {
+  font-size: 18px;
+  color: #666;
+  max-width: 700px;
+  margin: 0 auto 30px auto; /* Wyśrodkowanie */
+}
 
+.orly-container {
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+}
 
+.orly-item {
+  width: 45%;
+  max-width: 400px;
+  text-align: center;
+}
 
+.orly-item img {
+  max-width: 60%;
+  border-radius: 10px;
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.2);
+}
+.pakiet-harmonia {
+  text-align: center;
+  margin: 60px auto;
+  padding: 50px 20px;
+  background-color: #fff6f9; /* Delikatny pastelowy róż */
+  border-radius: 10px;
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+  max-width: 900px;
+}
 
+.pakiet-harmonia h2 {
+  font-size: 28px;
+  color: #cc3366;
+  margin-bottom: 10px;
+}
 
+.pakiet-opis {
+  font-size: 18px;
+  color: #666;
+  max-width: 700px;
+  margin: 0 auto 30px auto;
+}
 
+.pakiet-container {
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+  flex-wrap: wrap;
+}
 
+.pakiet-sekcja {
+  background: white;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+  text-align: left;
+  width: 30%;
+  min-width: 280px;
+}
 
+.pakiet-sekcja h3 {
+  font-size: 20px;
+  color: #cc3366;
+  margin-bottom: 10px;
+}
 
+.pakiet-sekcja ul {
+  list-style-type: none;
+  padding: 0;
+}
 
+.pakiet-sekcja ul li {
+  padding: 5px 0;
+  font-size: 16px;
+}
 
+.pakiet-cena {
+  text-align: center;
+  margin-top: 20px;
+  font-size: 18px;
+}
 
+.zapisy {
+  margin-top: 15px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
 
+.phone-link {
+  font-size: 18px;
+  font-weight: bold;
+  text-decoration: none;
+  color: #007BFF;
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
 
+.phone-link i {
+  color: #007bff;
+  font-size: 16px;
+}
 
+.phone-link:hover {
+  color: #0056b3;
+}
 
+.phone-link:hover i {
+  color: #0056b3;
+}
 
+.btn-pakiet-harmonia {
+  margin-top: 20px;
+  background-color: #cc3366;
+  color: white;
+  border: none;
+  padding: 12px 20px;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 18px;
+}
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+.btn-pakiet-harmonia:hover {
+  background-color: #aa2a55;
+}
 
