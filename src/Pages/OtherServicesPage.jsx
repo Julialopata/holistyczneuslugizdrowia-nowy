@@ -505,6 +505,119 @@ const OtherServicesPage = () => {
                     </div>
                 </div>
             </section>
+            <section className="pakiet-harmonia">
+    <h2>Holistyczny Pakiet „Zdrowa, promienna skóra”</h2>
+    <p className="pakiet-opis">
+        Zdrowa, promienna skóra zaczyna się od wewnątrz! W ramach tego pakietu zadbamy o skórę holistycznie – 
+        od oczyszczenia organizmu, poprzez regenerację komórkową, aż po celowaną suplementację i kosmetykę endogenną.
+    </p>
+
+    <div className="pakiet-container">
+        <div className="pakiet-sekcja">
+            <h3>🔬 Diagnostyka i terapia biorezonansem</h3>
+            <ul>
+                <li>✅ Biorezonans Quantum – pierwsza sesja (diagnostyka organizmu i skóry) – 160 zł</li>
+                <li>✅ Biorezonans Mesator M1 – pierwsza sesja (terapia wspierająca odnowę komórkową) – 250 zł</li>
+                <li>✅ Sanoplazma 3 – 1h (stymulacja mikrokrążenia i regeneracja skóry) – 60 zł</li>
+            </ul>
+        </div>
+
+        <div className="pakiet-sekcja">
+            <h3>🌿 Suplementacja i fitoterapia</h3>
+            <ul>
+                <li>✅ Warsztaty Zdrowia i Urody (kosmetyka endogenna + analiza kosmetyków) – GRATIS</li>
+                <li>✅ Suplementacja (dobór produktów firm Forever, Sativa Life, TianDe, kosmetyka endogenna) – rabat -15%</li>
+                <li>✅ Żywa woda – 1 butelka GRATIS</li>
+            </ul>
+        </div>
+
+        <div className="pakiet-sekcja">
+            <h3>💆‍♀️ Dla kogo?</h3>
+            <ul>
+                <li>✅ Dla kobiet dbających o zdrową i promienną skórę</li>
+                <li>✅ Dla osób z problemami skórnymi (suchość, zmarszczki, trądzik, przebarwienia)</li>
+                <li>✅ Dla wszystkich, którzy chcą działać na skórę od wewnątrz</li>
+            </ul>
+        </div>
+    </div>
+
+    <div className="pakiet-cena">
+    <h3>💰 Cennik i rabaty</h3>
+    <p>Łączna wartość pakietu: <strong>470 zł</strong></p>
+    <p>🎉 Rabaty suplementacyjne: <strong>-15%</strong></p>
+    <p>🎉 Rabat dla osób zgłaszających siebie i bliską osobę, każda osoba otrzymuje:<strong> -20 zł na pakiet</strong></p>
+    <p>🎉 Rabat dla polecających gabinet:<strong> -15% na kolejną usługę</strong></p>
+    <p>🎉 Możliwość dokupienia sesji Sanoplazmy, kolejna godzina:<strong> -10 zł</strong></p>
+
+    <div className="zapisy">
+        <p>📅 <strong>Zapisy:</strong></p>
+        <a href="tel:791852526" className="phone-link">
+            <i className="fas fa-phone"></i> 791 852 526
+        </a>
+    </div>
+</div>
+
+    
+
+</section>
+<section className="pakiet-harmonia">
+    <h2>Holistyczny Pakiet „Harmonia Kobiety”</h2>
+    <p className="pakiet-opis">
+        Dla kobiet w okresie okołomenopauzalnym – stworzony przez naturopatę Małgorzatę Salamucha.
+        Menopauza to naturalny proces, który wymaga wsparcia organizmu na poziomie hormonalnym, metabolicznym i emocjonalnym.
+        Ten pakiet łączy diagnostykę, terapie biorezonansowe oraz indywidualnie dobraną suplementację, aby pomóc Ci zachować równowagę i dobre samopoczucie.
+    </p>
+
+    <div className="pakiet-container">
+        <div className="pakiet-sekcja">
+            <h3>🔬 Diagnostyka i terapia biorezonansem</h3>
+            <ul>
+                <li>✅ Biorezonans Mesator M1 + Quantum – analiza organizmu (300 zł)</li>
+                <li>✅ Sesja terapeutyczna Sanoplazma 3 (1x 60 min) – wspomaganie równowagi hormonalnej (60 zł)</li>
+            </ul>
+        </div>
+
+        <div className="pakiet-sekcja">
+            <h3>🌿 Suplementacja i fitoterapia</h3>
+            <ul>
+                <li>✅ Rabat na produkty 15%</li>
+                <li>✅ Indywidualnie dobrana kuracja (fitoestrogeny, adaptogeny, minerały, omega-3)</li>
+                <li>✅ Detoksykacja organizmu – wsparcie wątroby, jelit, usuwanie toksyn</li>
+                <li>✅ Suplementy wzmacniające układ nerwowy i redukujące stres</li>
+            </ul>
+        </div>
+
+        <div className="pakiet-sekcja">
+            <h3>💆‍♀️ Wsparcie holistyczne</h3>
+            <ul>
+                <li>✅ Konsultacja naturopatyczna (60 min) – analiza wyników i plan terapeutyczny (200 zł)</li>
+                <li>✅ Kierunek żywieniowy dostosowany do menopauzy</li>
+                <li>✅ Ćwiczenia relaksacyjne – instruktaż redukcji stresu (gratis!)</li>
+            </ul>
+        </div>
+    </div>
+
+    <div className="pakiet-cena">
+    <h3>💰 Cennik i rabaty</h3>
+    <p>Łączna wartość pakietu: <strong>560 zł</strong></p>
+    <p>🎉 Rabaty suplementacyjne: <strong>-15%</strong></p>
+
+    <div className="zapisy">
+        <p>📅 <strong>Zapisy:</strong></p>
+        <a href="tel:791852526" className="phone-link">
+            <i className="fas fa-phone"></i> 791 852 526
+        </a>
+    </div>
+</div>
+
+    
+
+</section>
+
+
+
+
+
         </>
     )
 }

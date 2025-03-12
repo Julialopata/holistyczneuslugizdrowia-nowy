@@ -1,7 +1,7 @@
 import {useLocation} from "react-router-dom";
 
 const titles = {
-    'pozostale-uslugi': 'Pozostałe usługi',
+    'pozostale-uslugi': 'Usługi i pakiety',
     'urzadzenia-pomiarowe': 'Urządzenia pomiarowe',
 }
 

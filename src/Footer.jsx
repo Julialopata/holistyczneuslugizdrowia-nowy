@@ -60,7 +60,7 @@ const Footer = () => {
                                 <h5 className="h5-xs">O usługach</h5>
 
                                 <ul className="foo-links clearfix">
-                                    <li><a href="/pozostale-uslugi">Pozostałe Usługi</a></li>
+                                    <li><a href="/pozostale-uslugi">Usługi i pakiety</a></li>
                                     <li><a href="/urzadzenia-pomiarowe">Urządzenia Pomiarowe</a></li>
                                     <li><a href="/cennik">Cennik</a></li>
                                 </ul>
