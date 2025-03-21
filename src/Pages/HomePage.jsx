@@ -59,10 +59,9 @@ const HomePage = () => {
             <div className="container">
                 <h2>Pobierz darmowego eBooka!</h2>
                 <p>Odkryj sekrety zdrowia i popraw swoje samopoczucie dzięki sprawdzonym metodom.</p>
-                {/* Przycisk pobrania */}
-                {/*<a href="/Menopauza_Ebook.pdf" download className="download-btn">📥 Pobierz eBook/ Menopauza</a><br/>*/}
+                
                 <a href="/E-book.pdf" download className="download-btn">📥 Pobierz eBook/ Wypalenie zawodowe</a><br/>
-                {/*<a href="/Odporność_Ebook.pdf" download className="download-btn">📥 Pobierz eBook/ Odporność u dzieci</a>*/}
+                
             </div>
         </section>
             <br/>
