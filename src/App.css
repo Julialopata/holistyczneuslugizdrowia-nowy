@@ -1204,6 +1204,16 @@
   border-left: 5px solid #FBC02D;
 }
 
+.pricing-container #drenaz-limfatyczny-promocja-cennik {
+  background-color: #eef4ed;
+  border-left: 5px solid #25e36e;
+}
+
+.pricing-container #pulsing-cennik {
+  background-color: #f6dbf4;
+  border-left: 5px solid #e325cd;
+}
+
 /* Responsywność */
 @media (max-width: 768px) {
   .pricing-container section {

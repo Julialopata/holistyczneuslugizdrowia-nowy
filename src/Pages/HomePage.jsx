@@ -412,16 +412,35 @@ const HomePage = () => {
                                         </a>
                                     </div>
                                 </div>
-                                 {/*Zdjęcie 24*/}
+                                 {/*Zdjęcie 23*/}
                                  <div className="col-md-4">
                                     <div className="gallery-item">
-                                        <a href="/images/c24.jpg" data-lightbox="gallery" data-title="Zdjęcie 24">
+                                        <a href="/images/c23.jpg" data-lightbox="gallery" data-title="Zdjęcie 23">
                                             <img className="img-fluid gallery-image" src="/images/c24.jpg"
+                                                 alt="Zdjęcie 23"/>
+                                        </a>
+                                    </div>
+                                </div>
+                                {/*Zdjęcie 24*/}
+                                <div className="col-md-4">
+                                    <div className="gallery-item">
+                                        <a href="/images/c23.jpg" data-lightbox="gallery" data-title="Zdjęcie 23">
+                                            <img className="img-fluid gallery-image" src="/images/certyfikat2.jpg"
                                                  alt="Zdjęcie 24"/>
                                         </a>
                                     </div>
                                 </div>
+                                 {/*Zdjęcie 25*/}
+                                 <div className="col-md-4">
+                                    <div className="gallery-item">
+                                        <a href="/images/c24.jpg" data-lightbox="gallery" data-title="Zdjęcie 24">
+                                            <img className="img-fluid gallery-image" src="/images/certyfikat.jpg"
+                                                 alt="Zdjęcie 25"/>
+                                        </a>
+                                    </div>
+                                </div>
                             </div>
+                           
                         </div>
 
                         <div className="decoration">
