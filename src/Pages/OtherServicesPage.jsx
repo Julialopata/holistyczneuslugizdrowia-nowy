@@ -83,6 +83,34 @@ const OtherServicesPage = () => {
                                             Wsparcie odporności dzieci
                                         </a>
                                     </li>
+                                    
+                                     {/* TAB-4 LINK */}
+                                    <li className="nav-item icon-xs">
+                                        <a className="nav-link" id="tab9-list" data-toggle="pill" href="#tab-9"
+                                           role="tab"
+                                           aria-controls="tab-9" aria-selected="false">
+                                            Drenaż limfatyczny
+                                        </a>
+                                    </li>
+                             
+                                {/* TAB-4 LINK */}
+                                    <li className="nav-item icon-xs">
+                                        <a className="nav-link" id="tab10-list" data-toggle="pill" href="#tab-10"
+                                           role="tab"
+                                           aria-controls="tab-9" aria-selected="false">
+                                            Pulsing
+                                        </a>
+                                    </li>
+
+                                    {/* TAB-4 LINK */}
+                                    <li className="nav-item icon-xs">
+                                        <a className="nav-link" id="tab11-list" data-toggle="pill" href="#tab-11"
+                                           role="tab"
+                                           aria-controls="tab-9" aria-selected="false">
+                                            Lampa TDP
+                                        </a>
+                                    </li>
+                                
                                 </ul>
 
                             </div>
@@ -500,6 +528,146 @@ const OtherServicesPage = () => {
                                         </div>
                                     </div>
                                 </div>
+                                <div className="tab-pane fade" id="tab-9" role="tabpanel" aria-labelledby="tab9-list">
+                             <div className="row d-flex align-items-center">
+        <               div className="col-lg-6">
+                     <div className="tab-img">
+                <img className="img-fluid" src="/images/drenaż.png" alt="Drenaż limfatyczny" />
+            </div>
+        </div>
+
+        <div className="col-lg-6">
+            <div className="txt-block pc-30">
+                <h3 className="h3-md steelblue-color">Drenaż limfatyczny Pressmatic</h3>
+
+                <p>
+                    Skorzystaj z profesjonalnej terapii uciskowej Pressmatic – skutecznej i bezinwazyjnej metody wspierającej układ limfatyczny, idealnej dla osób z obrzękami, cellulitem, uczuciem ciężkich nóg lub potrzebą regeneracji po wysiłku.
+                </p>
+
+                <p>
+                    Zabieg polega na wykorzystaniu specjalnych mankietów (nogi, biodra, ręce), które w kontrolowany sposób napełniane są powietrzem. Sekwencyjny ucisk pobudza przepływ limfy, wspomaga detoksykację, zmniejsza obrzęki i poprawia metabolizm.
+                </p>
+
+                <p><b>Korzyści zabiegu:</b></p>
+                <ul>
+                    <li>– Redukcja obrzęków i cellulitu</li>
+                    <li>– Ulga dla zmęczonych, ciężkich nóg</li>
+                    <li>– Poprawa krążenia i metabolizmu</li>
+                    <li>– Regeneracja po aktywności fizycznej</li>
+                    <li>– Głęboka relaksacja i uczucie lekkości</li>
+                </ul>
+
+                <p>
+                    Oferujemy usługę mobilną – zabieg w Twoim domu, biurze lub innym miejscu. Przywozimy cały sprzęt – Ty tylko odpoczywasz.
+                </p>
+
+                <p><b>Przeciwwskazania:</b> zakrzepica, niewydolność serca, aktywne nowotwory, infekcje skórne, niekontrolowane nadciśnienie, ciąża (wymagana konsultacja).</p>
+
+                <p>
+                    Zadbaj o zdrowie i komfort – <b>umów wizytę już dziś!</b>
+                </p>
+            </div>
+        </div>
+    </div>
+</div>
+<div className="tab-pane fade" id="tab-11" role="tabpanel" aria-labelledby="tab11-list">
+    <div className="row d-flex align-items-center">
+        <div className="col-lg-6">
+            <div className="tab-img">
+                <img className="img-fluid" src="/images/Lampa.png" alt="Lampa TDP – naturalne wspacie organizmu"/>
+            </div>
+        </div>
+
+        {/* TEXT */}
+        <div className="col-lg-6">
+            <div className="txt-block pc-30">
+
+                {/* Title */}
+                <h3 className="h3-md steelblue-color">Lampa TDP – naturalne wsparcie organizmu</h3>
+
+                {/* Text */}
+                <p className="mb-30">
+                    Czy wiesz, że światło podczerwone i minerały mogą wspólnie zdziałać cuda dla Twojego ciała i samopoczucia?
+                    Lampa TDP to nowoczesne urządzenie emitujące promieniowanie podczerwone oraz mikroelementy z unikalnej wkładki mineralnej z czarnej gliny zawierającej aż 33 pierwiastki.
+                </p>
+
+                <p>
+                    Terapia TDP działa głęboko w tkankach, poprawia mikrokrążenie, wspiera regenerację i przynosi głęboki relaks.
+                    Działa bezinwazyjnie, wspierając naturalne procesy zdrowienia organizmu.
+                </p>
+
+                <p><b>Korzyści:</b></p>
+                <ul>
+                    <li>Rozgrzanie ciała od wewnątrz</li>
+                    <li>Lepsze dotlenienie i odżywienie tkanek</li>
+                    <li>Zmniejszenie napięcia mięśni i bólu</li>
+                    <li>Wsparcie detoksykacji i przemiany materii</li>
+                    <li>Poprawa samopoczucia, relaks i regeneracja</li>
+                </ul>
+
+                <p><b>Wskazania do terapii:</b></p>
+                <ul>
+                    <li>Bóle mięśni i stawów, sztywność karku, pleców, kolan</li>
+                    <li>Stany zapalne, osłabiona odporność</li>
+                    <li>Problemy z krążeniem i przewlekłe zmęczenie</li>
+                    <li>Okres rekonwalescencji i ogólne osłabienie</li>
+                </ul>
+
+                <p><b>Przeciwwskazania:</b></p>
+                <ul>
+                    <li>Gorączka, ostre infekcje</li>
+                    <li>Nowotwory, ciąża</li>
+                    <li>Uczulenie na ciepło, stany krwotoczne</li>
+                    <li>Świeże rany i urazy</li>
+                </ul>
+
+                <p><b>Zapraszam do gabinetu w Sosnowcu – zadbajmy razem o Twoje ciało, równowagę i spokój wewnętrzny.</b></p>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div className="tab-pane fade" id="tab-10" role="tabpanel" aria-labelledby="tab10-list">
+    <div className="row d-flex align-items-center">
+        <div className="col-lg-6">
+            <div className="tab-img">
+                <img className="img-fluid" src="/images/pulsing.png" alt="Pulsing – terapia ciała" />
+            </div>
+        </div>
+
+        <div className="col-lg-6">
+            <div className="txt-block pc-30">
+                <h3 className="h3-md steelblue-color">Pulsing </h3>
+                <h4>Usługa dostępna od lipca 2025 r.</h4><br></br>
+
+                <p>
+                    Pulsing to łagodna, rytmiczna terapia ciała, w której delikatne kołysanie i poruszanie pomaga wyciszyć układ nerwowy, rozluźnić ciało i uwolnić nagromadzone napięcia. To subtelna, a zarazem skuteczna forma wsparcia psychofizycznego.
+                </p>
+
+                <p><b>Korzyści:</b></p>
+                <ul>
+                    <li>– Głęboki relaks i redukcja stresu</li>
+                    <li>– Uwolnienie napięć emocjonalnych</li>
+                    <li>– Poprawa krążenia i elastyczności ciała</li>
+                    <li>– Lepszy kontakt z ciałem i wewnętrzny spokój</li>
+                    <li>– Naturalna regeneracja organizmu</li>
+                </ul>
+
+                <p>
+                    Sesja odbywa się w ubraniu, na materacu. Terapeuta rytmicznie porusza Twoim ciałem w dopasowanym tempie – bez presji, w pełnej uważności.
+                </p>
+
+                <p><b>Dla kogo?</b> Dla osób poszukujących delikatnej pracy z ciałem, relaksu, wyciszenia, alternatywy dla masażu lub wsparcia emocjonalnego.</p>
+
+                <p><b>Przeciwwskazania:</b> świeże urazy, aktywne infekcje, zakrzepica, padaczka (nieleczona), ciąża wysokiego ryzyka, nowotwory bez zgody lekarza.</p>
+
+                <p><b>Umów się na sesję i pozwól sobie na lekkość, spokój i głębszy oddech.</b></p>
+            </div>
+        </div>
+    </div>
+</div>
+
+
                             </div>
                         </div>
                     </div>

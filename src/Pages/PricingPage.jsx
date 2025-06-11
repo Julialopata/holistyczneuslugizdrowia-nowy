@@ -173,7 +173,30 @@ const PricingPage = () => {
     <li>Kontrolny biorezonans – <strong>180 zł</strong></li>
   </ul>
 </section>
+
+<section id="drenaz-limfatyczny-promocja-cennik">
+  <h2>Drenaż limfatyczny Pressmatic</h2>
+  <p><strong>Do końca lipca – specjalna cena za zabieg:</strong></p>
+  <ul>
+    <li>Zabieg pojedynczy (jedna partia ciała – nogi, ręce lub tułów) - <strong>100 zł</strong> / <strong>80 zł</strong></li>
+    <li>Zabieg łączony (nogi + tułów lub ręce + tułów) - <strong>160 zł</strong> / <strong>120 zł</strong></li>
+  </ul>
+  <p>Czas trwania zabiegu: <strong>30–45 minut</strong></p>
+  <p>Terapia dobierana indywidualnie w zależności od potrzeb i stanu organizmu.</p>
+</section>
+
+<section id="pulsing-cennik">
+  <h2>Pulsing</h2>
+  <p><strong>Usługa dostępna od lipca 2025 r.</strong></p>
+  <ul>
+    <li>Pojedyńcza sesja Pulsingu - <strong>140 zł</strong></li>
+  </ul>
+  <p>Czas trwania zabiegu: <strong>60 minut</strong></p>
+ 
+</section>
+
 </div>
+
 
 
         </>
