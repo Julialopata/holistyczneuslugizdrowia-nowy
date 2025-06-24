@@ -195,6 +195,15 @@ const PricingPage = () => {
  
 </section>
 
+<section id="lampaTDP-cennik">
+  <h2>Lampa TDP</h2>
+  <ul>
+    <li>Nagrzewanie Lampą TDP - <strong>50 zł</strong></li>
+  </ul>
+  <p>Czas trwania: <strong>30-60 minut</strong></p>
+ 
+</section>
+
 </div>
 
 
