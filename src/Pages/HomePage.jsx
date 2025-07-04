@@ -448,6 +448,15 @@ const HomePage = () => {
                                         </a>
                                     </div>
                                 </div>
+                                        {/*Zdjęcie 28*/}
+                                 <div className="col-md-4">
+                                    <div className="gallery-item">
+                                        <a href="/images/c26.jpg" data-lightbox="gallery" data-title="Zdjęcie 28">
+                                            <img className="img-fluid gallery-image" src="/images/c26.jpg"
+                                                 alt="Zdjęcie 28"/>
+                                        </a>
+                                    </div>
+                                </div>
                                 
                             </div>
                            
