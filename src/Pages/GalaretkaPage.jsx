@@ -1,8 +1,14 @@
 import React from "react";
+import { Helmet } from 'react-helmet-async';
 
 function GalaretkaPage() {
     return (
         <div className="product-container">
+            <Helmet>
+                <title>Aloe Vera Gelly - Produkt Numer Jeden | Forever Living | Holistyczne Usługi Zdrowia</title>
+                <meta name="keywords" content="aloe vera gelly, aloesowa galaretka, forever galaretka, aloes żel, stabilizowany miąższ aloe vera, produkt numer jeden, kojące działanie, łagodzenie podrażnień, drobne rany, oparzenia słoneczne, ukąszenia owadów, bezzapachowy żel, natychmiastowe ukojenie, regeneracja skóry, nawilżanie skóry, nadmierne opalanie, ochrona przed mrozem, po depilacji, po goleniu, podkład pod kosmetyki, przesuszona skóra, łuszcząca się skóra głowy, alergie skórne, nawilżenie, trądzik, podrażnione śluzówki, gojenie ran, forever aloe vera gelly, aloes w żelu, uniwersalny żel aloesowy, pierwsza pomoc aloes, aloes na oparzenia, aloes na ukąszenia, aloes na podrażnienia, aloes regenerujący, aloes nawilżający, aloes łagodzący, aloes po opalaniu, aloes zimą, aloes na skórę głowy, aloes na alergię, aloes na trądzik, aloes gojący, naturalny żel aloesowy, aloe vera gelly sklep, aloe vera gelly cena, aloe vera gelly opinie" />
+                <meta name="description" content="Aloe Vera Gelly Forever - uniwersalny żel aloesowy do łagodzenia podrażnień, oparzeń, ukąszeń i ran. Stabilizowany miąższ aloe vera przynosi natychmiastowe ukojenie i przyspiesza regenerację skóry." />
+            </Helmet>
            
             <img 
                 src="/images/galaretka.jpg" 

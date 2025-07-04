@@ -1,6 +1,13 @@
+import { Helmet } from 'react-helmet-async';
+
 const MeasuringDevicesPage = () => {
     return (
         <>
+            <Helmet>
+                <title>Urządzenia Pomiarowe - Biorezonans | Holistyczne Usługi Zdrowia</title>
+                <meta name="keywords" content="sanoplasma, generator plazmowy, rifetech, fale rife, terapia rife, częstotliwości rife, dewitalizacja mikroorganizmów, mikroorganizmy patogenne, detoksykacja, regeneracja organizmu, mezator m1, biorezonans mezator, mezator biorezonans, skanowanie organizmu, analiza pasożytów, diagnostyka naturalna, quantum analizator, quantum biorezonans, analizator kwantowy, quantum, 52 raporty zdrowia, badanie nieinwazyjne, analiza zdrowia, diagnostyka kwantowa, urządzenia diagnostyczne, urządzenia pomiarowe, diagnostyka holistyczna, skanowanie zdrowia, analiza organizmu, biorezonans sosnowiec, urządzenia biorezonansowe, generator plazmy, terapia plazmowa, częstotliwości terapeutyczne, urządzenia terapeutyczne, diagnostyka alternatywna, badanie biorezonansowe, analiza stanu zdrowia" />
+                <meta name="description" content="Profesjonalne urządzenia pomiarowe: Sanoplasma - generator plazmowy do terapii falami Rife'a, Mezator M1 - zaawansowany biorezonans, Quantum - 52 raporty zdrowia. Nieinwazyjne badania i terapie." />
+            </Helmet>
             <section className="info-section">
                 <div className="container">
 

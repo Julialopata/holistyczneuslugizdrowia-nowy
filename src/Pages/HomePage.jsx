@@ -1,8 +1,14 @@
 import React from 'react'
+import { Helmet } from 'react-helmet-async'
 
 const HomePage = () => {
     return (
         <>
+            <Helmet>
+                <title>Holistyczne Usługi Zdrowia Małgorzata Salamucha - Naturopata Sosnowiec</title>
+                <meta name="keywords" content="holistyczne usługi zdrowia, naturopata sosnowiec, małgorzata salamucha, biorezonans, sanoplasma, terapia plazmowa, medycyna naturalna, doradca żywieniowy, suplementacja, cbd, olej konopny, aloes forever, sativa life, żywa woda alkaliczna, jonizator wody, quantum, mezator m1, terapia rife, chlorofil, detoksykacja, drenaż limfatyczny, pulsing, lampa tdp, orły medycyny 2024, firma godna zaufania, gabinet naturopatyczny, medycyna alternatywna, zdrowie naturalne, konsultacje zdrowotne, warsztaty zdrowia i urody, terapia wibroakustyczna, informodiagnostyka, informoterapia, hydroterapia, analiza włosa, pasożyty, alergie, candida, borelioza, helicobacter, medycyna holistyczna, terapia naturalna, zdrowy styl życia, oczyszczanie organizmu, równowaga kwasowo-zasadowa, mikroorganizmy patogenne, wsparcie odporności, regeneracja organizmu, naturalne leczenie, medycyna niekonwencjonalna, praktyka naturopatyczna, certyfikowany naturopata, holistyczne podejście do zdrowia, indywidualna terapia, personalizowane leczenie, zdrowie i uroda, wellness sosnowiec, gabinet terapii naturalnych, alternatywne metody leczenia, profilaktyka zdrowotna, naturalne metody zdrowia, misy tybetańskie, dźwiękoterapia, terapia dźwiękiem" />
+                <meta name="description" content="Holistyczne Usługi Zdrowia Małgorzata Salamucha - profesjonalny gabinet naturopatyczny w Sosnowcu. Oferujemy biorezonans, terapię plazmową Sanoplasma, doradztwo żywieniowe, produkty Forever, Sativa Life i Tiande. Laureat Orły Medycyny 2024 i Firma Godna Zaufania." />
+            </Helmet>
             <div id="carouselExampleSlidesOnly" className="carousel slide" data-bs-ride="carousel">
                 <div className="carousel-inner">
                     <div className="carousel-item active">
@@ -453,6 +459,24 @@ const HomePage = () => {
                                     <div className="gallery-item">
                                         <a href="/images/c26.jpg" data-lightbox="gallery" data-title="Zdjęcie 28">
                                             <img className="img-fluid gallery-image" src="/images/c26.jpg"
+                                                 alt="Zdjęcie 28"/>
+                                        </a>
+                                    </div>
+                                </div>
+                                        {/*Zdjęcie 29*/}
+                                 <div className="col-md-4">
+                                    <div className="gallery-item">
+                                        <a href="/images/c27.jpg" data-lightbox="gallery" data-title="Zdjęcie 28">
+                                            <img className="img-fluid gallery-image" src="/images/c27.jpg"
+                                                 alt="Zdjęcie 28"/>
+                                        </a>
+                                    </div>
+                                </div>
+                                        {/*Zdjęcie 30*/}
+                                 <div className="col-md-4">
+                                    <div className="gallery-item">
+                                        <a href="/images/c28.jpg" data-lightbox="gallery" data-title="Zdjęcie 28">
+                                            <img className="img-fluid gallery-image" src="/images/c28.jpg"
                                                  alt="Zdjęcie 28"/>
                                         </a>
                                     </div>

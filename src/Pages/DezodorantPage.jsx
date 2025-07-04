@@ -1,9 +1,14 @@
 import React from "react";
-
+import { Helmet } from 'react-helmet-async';
 
 function DezodorantPage() {
     return (
         <div className="product-container">
+            <Helmet>
+                <title>Aloe Ever-Shield Dezodorant | Forever Living | Holistyczne Usługi Zdrowia</title>
+                <meta name="keywords" content="aloe ever-shield, dezodorant forever, dezodorant aloesowy, dezodorant bez aluminium, dezodorant naturalny, dezodorant w sztyfcie, kremowy dezodorant, pewność siebie, ochrona przed wilgocią, ochrona przed zapachem, dezodorant bez soli aluminium, dezodorant dla alergików, dezodorant po depilacji, dezodorant po goleniu, pielęgnacja skóry, odżywianie skóry, łagodny dezodorant, dezodorant nie plami ubrań, całodzienna ochrona, świeżość, aloe vera dezodorant, naturalny dezodorant w sztyfcie, forever living dezodorant, aloes dezodorant, hipoalergiczny dezodorant, dezodorant bez podrażnień, dezodorant dla wrażliwej skóry, antyperspirant naturalny, dezodorant ekologiczny, bio dezodorant, dezodorant aloes sklep, dezodorant forever cena, najlepszy naturalny dezodorant, dezodorant bez chemii, dezodorant bez parabenów, dezodorant kojący, dezodorant pielęgnujący" />
+                <meta name="description" content="Aloe Ever-Shield - kremowy dezodorant w sztyfcie bez soli aluminium. Zapewnia długotrwałą ochronę przed wilgocią i zapachem. Bezpieczny dla wrażliwej skóry, można stosować po depilacji i goleniu." />
+            </Helmet>
             <img 
                 src="/images/dezodorant.jpg" 
                 alt="Dezodorant Aloe Ever-Shield" 

@@ -1,6 +1,13 @@
+import { Helmet } from 'react-helmet-async';
+
 const OtherServicesPage = () => {
     return (
         <>
+            <Helmet>
+                <title>Usługi i Pakiety - Holistyczne Konsultacje | Holistyczne Usługi Zdrowia</title>
+                <meta name="keywords" content="odchudzanie kontrola wagi, wsparcie par starających się o dziecko, niepłodność leczenie naturalne, oczyszczanie organizmu, clean 9 forever, wsparcie kobiet w ciąży, suplementacja ciąża, prawidłowa suplementacja, poprawa koncentracji pamięci, choroby neurodegeneracyjne, alzheimer parkinson, stwardnienie rozsiane, terapia konopna cbd, wsparcie odporności dzieci, drenaż limfatyczny, pressmatic drenaż, terapia uciskowa, redukcja obrzęków, cellulit leczenie, ciężkie nogi, regeneracja po wysiłku, pulsing terapia, kołysanie ciała, terapia relaksacyjna, redukcja stresu, terapia wibroakustyczna, lampa tdp, promieniowanie podczerwone, terapia mineralna, 33 pierwiastki, bóle mięśni stawów, mikrokrążenie, dotlenienie tkanek, detoksykacja organizmu, pakiet zdrowa promienna skóra, kosmetyka endogenna, pakiet harmonia kobiety, menopauza naturalne leczenie, fitoestrogeny, adaptogeny, równowaga hormonalna, holistyczne pakiety zdrowotne, indywidualna terapia, personalizowane plany zdrowia, naturopata sosnowiec, holistyczne podejście do zdrowia, konsultacje zdrowotne, naturalne metody odchudzania, zdrowe odchudzanie, dieta holistyczna" />
+                <meta name="description" content="Kompleksowe usługi holistyczne: odchudzanie, wsparcie par starających się o dziecko, oczyszczanie organizmu, terapie dla kobiet w ciąży, drenaż limfatyczny, pulsing, lampa TDP. Specjalne pakiety zdrowotne." />
+            </Helmet>
             <section id="tabs-1" className="wide-100 tabs-section division">
                 <div className="container">
                     <div className="row">
@@ -631,7 +638,7 @@ const OtherServicesPage = () => {
     <div className="row d-flex align-items-center">
         <div className="col-lg-6">
             <div className="tab-img">
-                <img className="img-fluid" src="/images/pulsing.png" alt="Pulsing – terapia ciała" />
+                <img className="img-fluid" src="/images/pulsing.jpg" alt="Pulsing – terapia ciała" />
             </div>
         </div>  
         <div className="col-lg-6">

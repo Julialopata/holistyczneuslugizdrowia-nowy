@@ -1,4 +1,5 @@
 import React from "react";
+import { Helmet } from 'react-helmet-async';
 import "../App.css";
 
 
@@ -7,6 +8,11 @@ import "../App.css";
 const ForeverPage = () => {
     return (
         <>
+            <Helmet>
+                <title>Forever Living Products - Karta Klienta | Holistyczne Usługi Zdrowia</title>
+                <meta name="keywords" content="forever living products, forever polska, karta klienta forever, aloes forever, produkty aloesowe, forever living sosnowiec, ambasador forever, forever zniżki, forever rabaty, zniżka 5%, zniżka 30%, aloe vera forever, gwarancja satysfakcji, forever katalog, informator produktowy forever, biznes forever, marketing sieciowy, mlm forever, praca forever, dodatkowy dochód, własny biznes, elastyczny harmonogram, rozwój osobisty, forever team, współpraca forever, kosmetyki forever, suplementy forever, naturalny aloes, stabilizacja miąższu aloesowego, patent forever, certyfikat forever, biologicznie czynny aloes, roślina nieśmiertelności, superfood aloes, przeciwzapalne działanie aloesu, detoksykacja aloes, przemiana materii, odporność organizmu, regeneracja skóry, układ trawienny aloes, cholesterol aloes, ciśnienie krwi aloes, forever living rejestracja, forever living dołącz, forever living produkty sklep, forever living opinie, forever living zarobki" />
+                <meta name="description" content="Zostań klientem Forever Living Products i kupuj produkty z rabatem 5% lub 30%. Karta Klienta Forever uprawnia do zniżek w gabinecie Holistyczne Usługi Zdrowia. Możliwość budowania własnego biznesu." />
+            </Helmet>
             <section id="center-image" className="section">
                 <div className="container-fluid">
                     <div className="row justify-content-center">
@@ -151,7 +157,7 @@ const ForeverPage = () => {
                            className="btn-get-card">ZAŁÓŻ KARTĘ</a><br/><br/>
                         <p>Możesz także wejść na stronę Forever klikając <a
                             href="https://foreverliving.com/pol/pl-pl/home" target="_blank"
-                            className="plain-link">TUTAJ</a>, a następnie przejść do zakładki „Dołącz”.</p>
+                            className="plain-link">TUTAJ</a>, a następnie przejść do zakładki "Dołącz".</p>
                     </div>
                     <div className="card-option">
                         <h2> Z moją pomocą</h2>

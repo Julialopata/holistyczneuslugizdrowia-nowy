@@ -1,8 +1,14 @@
 import React from "react";
+import { Helmet } from 'react-helmet-async';
 
 function ChlorofilPage() {
     return (
         <div className="product-container">
+            <Helmet>
+                <title>Chlorofil - Zielone Źródło Zdrowia | Sativa Life | Holistyczne Usługi Zdrowia</title>
+                <meta name="keywords" content="chlorofil, chlorofilina sodowo-miedziowa, chlorofil w płynie, suplement chlorofilu, skoncentrowany chlorofil, naturalny chlorofil, zielone źródło zdrowia, magnez, przeciwutleniacz, wolne rodniki, bakteriobójcze, przeciwzapalne, przeciwgrzybicze, regeneracyjne, układ odpornościowy, układ krwionośny, układ nerwowy, układ pokarmowy, metabolizm, detoksykacja, poziom cukru we krwi, uczucie sytości, odchudzanie, nieprzyjemny zapach, regeneracja skóry, oczyszczanie organizmu, regulowanie ph, odporność, wirusy bakterie, żylaki, oczyszczanie krwi, limfa, płyny wewnątrzkomórkowe, wątroba jelita, redukcja stresu, substancje rakotwórcze, lucerna siewna, alfaalfa, witaminy a b c d e k, minerały potas cynk wapń fosfor miedź krzem żelazo, karotenoidy, beta-karoten, enzymy, aminokwasy, kwasy tłuszczowe, kwas linolowy, kwas linolenowy, kwasy organiczne, kwas jabłkowy, kwas fumarowy, kwas cytrynowy, polifenole, izoflawony, saponiny, sativa life chlorofil, chlorofil sklep, chlorofil cena, chlorofil właściwości, chlorofil działanie, chlorofil dawkowanie, najlepszy chlorofil, chlorofil płynny, chlorofil naturalny, zdrowie naturalne" />
+                <meta name="description" content="Chlorofil Sativa Life - najbardziej skoncentrowana forma na rynku. Naturalny suplement o właściwościach bakteriobójczych, przeciwzapalnych i regeneracyjnych. Wspomaga odporność, metabolizm i detoksykację organizmu." />
+            </Helmet>
             
             <img 
                 src="/images/ch.jpg" 

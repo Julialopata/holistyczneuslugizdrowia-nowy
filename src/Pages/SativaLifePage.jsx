@@ -1,9 +1,15 @@
 import React from "react";
+import { Helmet } from 'react-helmet-async';
 import "../App.css";
 
 const SativaLifePage = () => {
     return (
         <>
+            <Helmet>
+                <title>Sativa Life - Produkty Konopne CBD | Żywa Woda | Holistyczne Usługi Zdrowia</title>
+                <meta name="keywords" content="sativa life, sativa life polska, produkty konopne, konopie siewne, cannabis sativa, cbd produkty, olej cbd, olejek konopny, redukacja stresu, ułatwianie zasypiania, działanie przeciwzapalne, rzucenie palenia, konopie w kuchni, nie psychoaktywne, ograniczanie wchłaniania szkodliwych substancji, wpływ na skórę, wpływ na urodę, żywa woda, woda alkaliczna, woda wodorowa, woda strukturalna, aqua sativa, aqua sativa life, jonizator wody, ph wody, nawodnienie organizmu, klastry wody, detoksykacja wodą, wolne rodniki, odporność organizmu, równowaga kwasowo-zasadowa, woda alkaliczna właściwości, woda alkaliczna ph 8.8, neutralizacja pepsyny, refluks leczenie, jonizator aqua sativa life, orły medycyny 2024, businesswoman awards, czysta woda, miękka woda, usuwanie osadów, usuwanie rdzy, usuwanie zanieczyszczeń, smaczna woda, woda bez bakterii, woda bez wirusów, woda alkaliczna sosnowiec, jonizator wody śląsk, sativa life produkty sklep, sativa life cennik" />
+                <meta name="description" content="Sativa Life - naturalne produkty konopne CBD oraz jonizator Aqua Sativa Life do produkcji żywej wody alkalicznej. Wyróżnienie Orły Medycyny 2024. Redukcja stresu, działanie przeciwzapalne, detoksykacja." />
+            </Helmet>
             <section className="reasons">
                 <h2>Powody do zastosowania produktów konopnych z firmą Sativa Life:</h2>
                 <ul>
@@ -372,7 +378,7 @@ const SativaLifePage = () => {
                         jej potrzebujesz. Zainstalowanie jest
                         proste i szybkie- z pewnością każdy sobie poradzi. W zestawie znajduje się aż pięć
                         filtrów<br/> usuwających z wody w pierwszej
-                        kolejności zabrudzenia „mechaniczne”, takie jak piasek, kamień czy rdza, następnie specjalne
+                        kolejności zabrudzenia "mechaniczne", takie jak piasek, kamień czy rdza, następnie specjalne
                         wkłady węglowe<br/> usuwają chlor,
                         a dodatkowe wkłady z węgla łupin kokosowych uszlachetniają wodę i poprawiają jej smak oraz
                         usuwają metale ciężkie oraz

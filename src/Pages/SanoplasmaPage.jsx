@@ -1,6 +1,13 @@
+import { Helmet } from 'react-helmet-async';
+
 const SanoplasmaPage = () => {
     return (
         <>
+            <Helmet>
+                <title>Sanoplasma - Terapia Plazmowa | Generator Rife'a | Holistyczne Usługi Zdrowia</title>
+                <meta name="keywords" content="sanoplasma, sanoplasma 3, generator plazmowy, terapia plazmowa, fale rife, częstotliwości rife, royal rife, rifetech ltd, terapia elektromagnetyczna, fale oscylacyjne, mikroorganizmy patogenne, dewitalizacja patogenów, częstotliwość rezonansowa, dna rna mikroorganizmy, koronawirus covid-19, politechnika brno vut, biofeedback hrv, heart rate variability, odruch nogiera, stymulacja nerwowa, medycyna prewencyjna, bakterie wirusy, pierwotniaki pleśnie grzyby, biofilmy bakteryjne grzybicze, neuroborelioza, stany zapalne, detoksykacja organizmu, toksyny bakterii, układ immunologiczny, leukocyty limfocyty fagocyty, autonaprawa organizmu, samoregulacja samoleczenie, pole elektromagnetyczne, lampa plazmowa, intensywność pola elektromagnetycznego, selektywność niszczenia patogenów, bezpieczeństwo terapii, bezinwazyjność, sanoplasma sosnowiec, sanoplasma śląsk, terapia rife sosnowiec, generator plazmy śląsk, leczenie borelioza, leczenie candida, leczenie pasożyty, częstotliwości lecznicze, medycyna wibracyjna" />
+                <meta name="description" content="Sanoplasma 3 - certyfikowany generator plazmowy do terapii falami Rife'a. Skuteczne usuwanie bakterii, wirusów, grzybów i pasożytów. Funkcja biofeedback, bezpieczna i bezinwazyjna terapia." />
+            </Helmet>
 
             <section className="sanoplasma-section">
                 <h1>Sanoplasma</h1>

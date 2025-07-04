@@ -1,9 +1,15 @@
 import React from "react";
+import { Helmet } from 'react-helmet-async';
 
 
 function WodaPage() {
     return (
         <div className="product-container">
+            <Helmet>
+                <title>Żywa Woda - Aqua Sativa | Woda Alkaliczna | Holistyczne Usługi Zdrowia</title>
+                <meta name="keywords" content="żywa woda, aqua sativa, aqua sativa life, woda alkaliczna, woda wodorowa, woda pierwotna, woda naturalna, jonizator wody, życiodajny eliksir, 70% wody w organizmie, klastry cząsteczek wody, nawodnienie organizmu, optymalne nawodnienie, oczyszczanie organizmu, detoksykacja, dostarczanie tlenu, dostarczanie minerałów, walka z wolnymi rodnikami, poprawa odporności, równowaga kwasowo-zasadowa, ph 8.8, neutralizacja pepsyny, refluks żołądkowy, buforowanie kwasów, jonizator aqua sativa life, orły medycyny 2024, businesswoman awards, najlepsze urządzenie do jonizacji, usuwanie osadów, usuwanie rdzy, usuwanie zanieczyszczeń, poprawa smaku wody, poprawa zapachu wody, usuwanie wirusów bakterii, woda alkaliczna właściwości, woda drobnocząsteczkowa, wchłanianie wody, zakwaszenie organizmu, żywa woda sosnowiec, woda alkaliczna śląsk, jonizator wody cena, aqua sativa sklep, najlepsza woda alkaliczna, zdrowa woda pitna, filtracja wody" />
+                <meta name="description" content="Aqua Sativa Life - jonizator do produkcji żywej wody alkalicznej. Wyróżnienie Orły Medycyny 2024. Oczyszcza, alkalizuje, nawadnia organizm. Skuteczna w walce z zakwaszeniem i refluksem." />
+            </Helmet>
             
             <img 
                 src="/images/zywawoda.jpg" 
@@ -13,8 +19,8 @@ function WodaPage() {
             />
             <h1>ŻYWA WODA - AQUA SATIVA</h1><br/>
             <h2>WODA - <strong>życiodajny eliksir</strong></h2>
-            <p>Nie jest tajemnicą, że już od wielu lat mówi się, że „Jesteś tym, co pijesz” albo że
-                 „Twoje zdrowie zależy od ilości i jakości wody”, ponieważ nasze ciało składa się w około <strong>70%</strong> z wody.</p>
+            <p>Nie jest tajemnicą, że już od wielu lat mówi się, że "Jesteś tym, co pijesz" albo że
+                 "Twoje zdrowie zależy od ilości i jakości wody", ponieważ nasze ciało składa się w około <strong>70%</strong> z wody.</p>
             
             <h3>Jaka woda jest najlepsza?</h3>
             <p>To woda pierwotna, czysta, naturalna, alkaliczna i wodorowa. Woda ta jest nieskażona,
@@ -40,7 +46,7 @@ function WodaPage() {
             
             <h3>Nasze urządzenie do jonizacji wody</h3>
             <p><strong>Jonizator Aqua Sativa Life</strong> otrzymał wyróżnienie jako <strong>najlepsze</strong> urządzenie
-             do produkcji żywej wody w konkursie Businesswoman Awards magazynu „Businesswoman & Life”.</p>
+             do produkcji żywej wody w konkursie Businesswoman Awards magazynu "Businesswoman & Life".</p>
             
             <h3>Właściwości Aqua Sativa Life</h3>
             <ul>

@@ -1,6 +1,13 @@
+import { Helmet } from 'react-helmet-async';
+
 const PricingPage = () => {
     return (
         <>
+            <Helmet>
+                <title>Cennik Usług - Konsultacje, Biorezonans, Terapie | Holistyczne Usługi Zdrowia</title>
+                <meta name="keywords" content="cennik naturopata, ceny konsultacji zdrowotnych, konsultacja naturopatyczna cena, wizyta kontrolna cena, karta klienta forever zniżki, karta klienta sativa zniżki, biorezonans cena, biorezonans quantum cena, mezator m1 cennik, biorezonans szczegółowy cena, sanoplasma cennik, scan biofeedback cena, terapia spersonalizowana cena, pakiet 10 sesji sanoplasma, terapia zapper cena, lek bioinformatyczny cena, metaterapia autoterapia cena, warsztaty zdrowia urody cena, żywa woda urządzenie cena, doradztwo konopne cbd cena, drenaż limfatyczny pressmatic cena, pulsing cena, lampa tdp cena, promocje forever living, rabaty forever living, zniżka 5%, zniżka 30%, cennik usług holistycznych, cennik gabinetu naturopatycznego, cennik terapii naturalnych, cennik biorezonansu sosnowiec, cennik sanoplasmy sosnowiec, cennik drenażu limfatycznego, tanie konsultacje naturopatyczne, promocje gabinet holistyczny, pakiety promocyjne zdrowie" />
+                <meta name="description" content="Cennik usług gabinetu Holistyczne Usługi Zdrowia. Konsultacje od 60 zł, biorezonans od 180 zł, sanoplasma, drenaż limfatyczny, pulsing. Karta Klienta Forever i Sativa - zniżki do 40%." />
+            </Helmet>
             <section id="about-5" className="pt-100 pb-100  about-section division">
                 <div className="">
                     <div className="row d-flex align-items-center">
@@ -122,8 +129,8 @@ const PricingPage = () => {
 </section>
 
 <section id="zywa-woda-cennik">
-  <h2>Urządzenie do produkcji „Żywej Wody”</h2>
-  <p>Zapytaj o urządzenie do produkcji „Żywej Wody”.</p>
+  <h2>Urządzenie do produkcji "Żywej Wody"</h2>
+  <p>Zapytaj o urządzenie do produkcji "Żywej Wody".</p>
 </section>
 
 <section id="doradztwo-konopne-cennik">
@@ -139,7 +146,7 @@ const PricingPage = () => {
     <li>Terapia spersonalizowana (do 3 godzin) – <strong>180 zł</strong></li>
     <li>Zakup pakietu 10 sesji (2 sesje gratis) – <strong>1440 zł</strong></li>
     <li>1 godzina terapii – <strong>60 zł</strong></li>
-    <li>Do każdej sesji „Żywa Woda” – <strong>GRATIS</strong></li>
+    <li>Do każdej sesji "Żywa Woda" – <strong>GRATIS</strong></li>
   </ul>
 </section>
 

@@ -1,8 +1,14 @@
 import React from "react";
+import { Helmet } from 'react-helmet-async';
 
 function TianDePage() {
     return (
         <div className="product-container">
+            <Helmet>
+                <title>TianDe - Wkładki i Podpaski z Ziołami | Holistyczne Usługi Zdrowia</title>
+                <meta name="keywords" content="tiande, tiande polska, wkładki z ziołami, podpaski z ziołami, naturalna ochrona, higiena intymna kobiet, zdrowie układu rozrodczego, wkładki higieniczne, podpaski higieniczne, aloes wkładki, kora dębu właściwości, piołun działanie, mięta antyseptyczna, kamfora mikrokrążenie, angelika zdrowie kobiet, regulacja cyklu menstruacyjnego, właściwości przeciwbakteryjne, przeciwzapalne, przeciwgrzybicze, nawilżanie intymne, regeneracja skóry, ściągające działanie, łagodzenie podrażnień, odświeżanie, redukcja obrzęków, wspomaganie mikrokrążenia, naturalne składniki, innowacyjne technologie, ochrona higieniczna, komfort intymny, tiande wkładki cena, tiande podpaski sklep, naturalne produkty higieniczne, ekologiczne wkładki, bio podpaski, wkładki dla młodych dziewcząt, wkładki dla kobiet w ciąży, wkładki dla kobiet w menopauzie, zioła dla kobiet, zdrowie intymne, profilaktyka infekcji, tiande produkty opinie" />
+                <meta name="description" content="TianDe - innowacyjne wkładki i podpaski z ziołami. Naturalne składniki: aloes, kora dębu, piołun, mięta, kamfora, angelika. Wsparcie zdrowia intymnego kobiet na każdym etapie życia." />
+            </Helmet>
            <img 
     src="/images/TianDe.png" 
     alt="TianDe" 

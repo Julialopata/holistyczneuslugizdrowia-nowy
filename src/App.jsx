@@ -1,5 +1,6 @@
 import React from "react";
 import { BrowserRouter, Routes, Route } from "react-router-dom";
+import { HelmetProvider } from 'react-helmet-async';
 import Layout from "./Layout";
 import HomePage from "./Pages/HomePage";
 import AboutPage from "./Pages/AboutPage";
@@ -25,28 +26,30 @@ import TianDePage from "./Pages/TianDePage.jsx";
 
 const App = () => {
     return (
-        <BrowserRouter>
-            <Routes>
-                <Route path="/" element={<Layout />}>
-                    <Route path="/o-mnie" element={<AboutPage />} />
-                    <Route path="/pozostale-uslugi" element={<OtherServicesPage />} />
-                    <Route path="/urzadzenia-pomiarowe" element={<MeasuringDevicesPage />} />
-                    <Route path="/sativa-life" element={<SativaLifePage />} />
-                    <Route path="/forever" element={<ForeverPage />} />
-                    <Route path="/cennik" element={<PricingPage />} />
-                    <Route path="/sanoplasma" element={<SanoplasmaPage />} />
-                    <Route path="/warsztaty-zdrowia-i-urody" element={<HealthAndBeautyWorkshopsPage />} />
-                    <Route path="/chlorofil" element={<ChlorofilPage />} />
-                    <Route path="/dezodorant" element={<DezodorantPage />} />
-                    <Route path="/galaretka" element={<GalaretkaPage />} />
-                    <Route path="/konopie" element={<KonopiePage />} />
-                    <Route path="/woda" element={<WodaPage />} />
-                    <Route path="/TianDe" element={<TianDePage />} />
-                    <Route path="/" element={<HomePage />} />
-                    <Route path="*" element={<HomePage />} />
-                </Route>
-            </Routes>
-        </BrowserRouter>
+        <HelmetProvider>
+            <BrowserRouter>
+                <Routes>
+                    <Route path="/" element={<Layout />}>
+                        <Route path="/o-mnie" element={<AboutPage />} />
+                        <Route path="/pozostale-uslugi" element={<OtherServicesPage />} />
+                        <Route path="/urzadzenia-pomiarowe" element={<MeasuringDevicesPage />} />
+                        <Route path="/sativa-life" element={<SativaLifePage />} />
+                        <Route path="/forever" element={<ForeverPage />} />
+                        <Route path="/cennik" element={<PricingPage />} />
+                        <Route path="/sanoplasma" element={<SanoplasmaPage />} />
+                        <Route path="/warsztaty-zdrowia-i-urody" element={<HealthAndBeautyWorkshopsPage />} />
+                        <Route path="/chlorofil" element={<ChlorofilPage />} />
+                        <Route path="/dezodorant" element={<DezodorantPage />} />
+                        <Route path="/galaretka" element={<GalaretkaPage />} />
+                        <Route path="/konopie" element={<KonopiePage />} />
+                        <Route path="/woda" element={<WodaPage />} />
+                        <Route path="/TianDe" element={<TianDePage />} />
+                        <Route path="/" element={<HomePage />} />
+                        <Route path="*" element={<HomePage />} />
+                    </Route>
+                </Routes>
+            </BrowserRouter>
+        </HelmetProvider>
     );
 };
 

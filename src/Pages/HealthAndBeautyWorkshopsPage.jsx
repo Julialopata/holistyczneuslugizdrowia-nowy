@@ -1,6 +1,13 @@
+import { Helmet } from 'react-helmet-async';
+
 const HealthAndBeautyWorkshopsPage = () => {
     return (
         <>
+            <Helmet>
+                <title>Warsztaty Zdrowia i Urody | Holistyczne Usługi Zdrowia Sosnowiec</title>
+                <meta name="keywords" content="warsztaty zdrowia i urody, warsztaty kosmetyczne, warsztaty zdrowotne, warsztaty dla kobiet, warsztaty grupowe, warsztaty indywidualne, pielęgnacja naturalna, kosmetyka holistyczna, kosmetyka endogenna, nawilżenie skóry, nawodnienie skóry, elastyczność skóry, badanie skóry, maseczki naturalne, naturalne produkty kosmetyczne, warsztaty relaksacyjne, aromaterapia, olejki eteryczne, kameralne warsztaty, warsztaty dla przyjaciółek, warsztaty dla rodziny, pielęgnacja od środka, holistyczne podejście do urody, doradztwo zdrowotne, kobiece sprawy, zdrowie kobiet, piękna skóra, regeneracja skóry, warsztaty wellness, warsztaty spa, warsztaty pielęgnacyjne, naturalna pielęgnacja twarzy, diagnostyka skóry, personalizowane maseczki, warsztaty urody sosnowiec, warsztaty zdrowia śląsk, holistyczna pielęgnacja, endogenna kosmetyka, warsztaty relaksacyjne z muzyką, maksymalnie 5 osób, bon na warsztaty, prezent warsztaty urody" />
+                <meta name="description" content="Kameralne warsztaty zdrowia i urody w Sosnowcu. Sprawdzenie poziomu nawilżenia skóry, dobór naturalnych maseczek, wiedza o kosmetyce holistycznej. Warsztaty indywidualne lub grupowe do 5 osób." />
+            </Helmet>
             <section id="info-4" className="wide-100 info-section division">
                 <div className="container">
                     {/* TOP ROW */}

@@ -1,8 +1,14 @@
 import React from "react";
+import { Helmet } from 'react-helmet-async';
 
 function KonopiePage() {
     return (
         <div className="product-container">
+            <Helmet>
+                <title>Olej CBD - Konopie | Doradca Konopny | Holistyczne Usługi Zdrowia</title>
+                <meta name="keywords" content="olej cbd, cbd oil, konopie siewne, cannabis sativa, doradca konopny, terapia konopna, cbd 10%, olej konopny, kannabidiol, thc, cbda, cbc, cbdv, cbg, cbga, cbn, terpeny, mircen, limonen, pinen, kariofilen, flawonoidy, kemferol, apigenina, kwercytyna, omega 3 6 9, witamina e b1 b2 k, fosfor potas magnez wapń żelazo, ekstrakcja co2, pełne spektrum, full spectrum, raw cbd, konopie właściwości, cbd przeciwbólowe, cbd przeciwlękowe, cbd przeciwdepresyjne, cbd przeciwdrgawkowe, cbd antyoksydacyjne, cbd regulacja sebum, cbd bezsenność, cbd problemy żołądkowe, cbd łuszczyca, cbd padaczka, cbd rwa kulszowa, cbd tarczyca, cbd stres, cbd lęk, cbd depresja, formy kwasowe cbd, metoda ekstrakcji, produkty certyfikowane cbd, konsultacja cbd, doradztwo konopne, cbd sosnowiec, olej cbd sklep, olej cbd cena, olej cbd dawkowanie, najlepszy olej cbd, naturalny olej cbd, konopie medyczne, konopie lecznicze" />
+                <meta name="description" content="Profesjonalne doradztwo konopne w ujęciu CBD. Naturalny olejek CBD 10% Full Spectrum wyprodukowany metodą ekstrakcji CO2. Pomoc w doborze odpowiedniego produktu i dawki. Darmowa konsultacja." />
+            </Helmet>
             
             <img 
                 src="/images/konopie.jpg" 
