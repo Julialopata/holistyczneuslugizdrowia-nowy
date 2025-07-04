@@ -1214,6 +1214,11 @@
   border-left: 5px solid #e325cd;
 }
 
+.pricing-container #lampaTDP-cennik {
+  background-color: #f9e3e6;
+  border-left: 5px solid #b73838;
+}
+
 /* Responsywność */
 @media (max-width: 768px) {
   .pricing-container section {

@@ -189,9 +189,18 @@ const PricingPage = () => {
   <h2>Pulsing</h2>
   <p><strong>Usługa dostępna od lipca 2025 r.</strong></p>
   <ul>
-    <li>Pojedyńcza sesja Pulsingu - <strong>140 zł</strong></li>
+    <li>Pojedyńcza sesja Pulsingu - <strong><del>160 zł</del> 140 zł</strong></li>
   </ul>
-  <p>Czas trwania zabiegu: <strong>60 minut</strong></p>
+  <p>Czas trwania zabiegu: <strong>50 minut</strong></p>
+ 
+</section>
+
+<section id="lampaTDP-cennik">
+  <h2>Lampa TDP</h2>
+  <ul>
+    <li>Nagrzewanie Lampą TDP - <strong>50 zł</strong></li>
+  </ul>
+  <p>Czas trwania: <strong>30-60 minut</strong></p>
  
 </section>
 

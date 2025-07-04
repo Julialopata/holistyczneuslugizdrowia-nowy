@@ -633,44 +633,56 @@ const OtherServicesPage = () => {
             <div className="tab-img">
                 <img className="img-fluid" src="/images/pulsing.png" alt="Pulsing – terapia ciała" />
             </div>
-        </div>
-
+        </div>  
         <div className="col-lg-6">
             <div className="txt-block pc-30">
-                <h3 className="h3-md steelblue-color">Pulsing </h3>
-                <h4>Usługa dostępna od lipca 2025 r.</h4><br></br>
+                <h3 className="h3-md steelblue-color">PULSING – kołysanie, które przywraca ciszę w ciele i spokój w duszy </h3>
 
                 <p>
-                    Pulsing to łagodna, rytmiczna terapia ciała, w której delikatne kołysanie i poruszanie pomaga wyciszyć układ nerwowy, rozluźnić ciało i uwolnić nagromadzone napięcia. To subtelna, a zarazem skuteczna forma wsparcia psychofizycznego.
+                    Żyjemy w napięciu, przebodźcowani i zmęczeni. Obowiązki narastają, ciało się napina,
+                    oddech staje się płytki, a sen niespokojny. <br />
+                    Czekamy, aż ciało zacznie krzyczeć, zamiast zatrzymać się wcześniej. 
                 </p>
-
-                <p><b>Korzyści:</b></p>
-                <ul>
-                    <li>– Głęboki relaks i redukcja stresu</li>
-                    <li>– Uwolnienie napięć emocjonalnych</li>
-                    <li>– Poprawa krążenia i elastyczności ciała</li>
-                    <li>– Lepszy kontakt z ciałem i wewnętrzny spokój</li>
-                    <li>– Naturalna regeneracja organizmu</li>
-                </ul>
+                  
+                <p>
+                        🌿 <b>Czym jest Pulsing?</b><br />
+                        Pulsing to metoda kołysania ciała w rytmie bicia serca płodu – rytmie, który znaliśmy
+                        zanim się narodziliśmy. To powrót do rytmu życia, poczucia bezpieczeństwa i otulenia.
+                        Podczas sesji nie ma presji, oceny ani kontroli – jest rytmiczne, miękkie,
+                        płynące z serca kołysanie, które pozwala ciału poczuć się bezpiecznie.
+                    </p>
 
                 <p>
-                    Sesja odbywa się w ubraniu, na materacu. Terapeuta rytmicznie porusza Twoim ciałem w dopasowanym tempie – bez presji, w pełnej uważności.
+                        🌿 <b>Dlaczego warto skorzystać z Pulsingu?</b><br />
+                        Bo ciało potrzebuje ulgi, oddech swobody, a głowa odpoczynku.
+                        Pulsing to nie tylko relaks, ale głęboka regulacja organizmu, 
+                        obniżenie stresu i wsparcie regeneracji.
                 </p>
 
-                <p><b>Dla kogo?</b> Dla osób poszukujących delikatnej pracy z ciałem, relaksu, wyciszenia, alternatywy dla masażu lub wsparcia emocjonalnego.</p>
+                <p>
+                        🌿 <b>Dla kogo jest Pulsing?</b><br />
+                        Dla każdego, kto chce odetchnąć i poczuć się lepiej w ciele.
+                        Dla zmęczonych, zestresowanych, z napięciami, problemami ze snem lub chcących zadbać o emocje.
+                </p>
+      
+                <p>
+                        🌿 <b>Z mojej perspektywy jako naturoterapeuty…</b><br />
+                        Pulsing jest delikatnym, ale potężnym narzędziem uzupełniającym pracę z człowiekiem,
+                        zapraszającym ciało do samo-regulacji, a ja z empatią i obecnością towarzyszę Ci w tym procesie.
+                    </p>
 
-                <p><b>Przeciwwskazania:</b> świeże urazy, aktywne infekcje, zakrzepica, padaczka (nieleczona), ciąża wysokiego ryzyka, nowotwory bez zgody lekarza.</p>
-
-                <p><b>Umów się na sesję i pozwól sobie na lekkość, spokój i głębszy oddech.</b></p>
+                    <p>
+                        Jeśli czujesz, że czas zatroszczyć się o siebie, odzyskać kontakt ze sobą
+                        i poczuć lekkość w sercu – zapraszam Cię na sesję Pulsingu.
+                        Twoje ciało wie. A ja będę obok 🌿
+                    </p>
             </div>
-        </div>
+        </div>  
     </div>
 </div>
-
-
-                            </div>
-                        </div>
-                    </div>
+    </div>
+        </div>
+            </div>
                 </div>
             </section>
             <section className="pakiet-harmonia">
