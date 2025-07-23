@@ -448,8 +448,8 @@ const HomePage = () => {
                                 {/*Zdjęcie 27*/}
                                  <div className="col-md-4">
                                     <div className="gallery-item">
-                                        <a href="/images/c25.png" data-lightbox="gallery" data-title="Zdjęcie 27">
-                                            <img className="img-fluid gallery-image" src="/images/c25.png"
+                                        <a href="/images/c26.jpg" data-lightbox="gallery" data-title="Zdjęcie 27">
+                                            <img className="img-fluid gallery-image" src="/images/c26.jpg"
                                                  alt="Zdjęcie 27"/>
                                         </a>
                                     </div>
@@ -457,8 +457,8 @@ const HomePage = () => {
                                         {/*Zdjęcie 28*/}
                                  <div className="col-md-4">
                                     <div className="gallery-item">
-                                        <a href="/images/c26.jpg" data-lightbox="gallery" data-title="Zdjęcie 28">
-                                            <img className="img-fluid gallery-image" src="/images/c26.jpg"
+                                        <a href="/images/c25.png" data-lightbox="gallery" data-title="Zdjęcie 28">
+                                            <img className="img-fluid gallery-image" src="/images/c25.png"
                                                  alt="Zdjęcie 28"/>
                                         </a>
                                     </div>
@@ -466,18 +466,18 @@ const HomePage = () => {
                                         {/*Zdjęcie 29*/}
                                  <div className="col-md-4">
                                     <div className="gallery-item">
-                                        <a href="/images/c27.jpg" data-lightbox="gallery" data-title="Zdjęcie 28">
+                                        <a href="/images/c27.jpg" data-lightbox="gallery" data-title="Zdjęcie 29">
                                             <img className="img-fluid gallery-image" src="/images/c27.jpg"
-                                                 alt="Zdjęcie 28"/>
+                                                 alt="Zdjęcie 29"/>
                                         </a>
                                     </div>
                                 </div>
                                         {/*Zdjęcie 30*/}
                                  <div className="col-md-4">
                                     <div className="gallery-item">
-                                        <a href="/images/c28.jpg" data-lightbox="gallery" data-title="Zdjęcie 28">
+                                        <a href="/images/c28.jpg" data-lightbox="gallery" data-title="Zdjęcie 30">
                                             <img className="img-fluid gallery-image" src="/images/c28.jpg"
-                                                 alt="Zdjęcie 28"/>
+                                                 alt="Zdjęcie 30"/>
                                         </a>
                                     </div>
                                 </div>

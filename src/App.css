@@ -1219,6 +1219,15 @@
   border-left: 5px solid #b73838;
 }
 
+.pricing-container #swiatlo-cennik {
+  background-color: #f3f9e3;
+  border-left: 5px solid #e0e86a;
+}
+.pricing-container #dzwiek-cennik {
+  background-color: #e3f2f9;
+  border-left: 5px solid #64a6e0;
+}
+
 /* Responsywność */
 @media (max-width: 768px) {
   .pricing-container section {
@@ -1239,4 +1248,53 @@
       font-size: 18px;
   }
 }
+.has-submenu {
+  position: relative;
+}
 
+.has-submenu .sub-menu {
+  display: none;
+  position: absolute;
+  top: 100%;
+  left: 0;
+  background: white;
+  list-style: none;
+  padding: 10px;
+  border: 1px solid #ddd;
+  z-index: 1000;
+}
+
+.has-submenu:hover .sub-menu {
+  display: block;
+}
+.accordion .card-header {
+  background-color: #f8f9fa; /* Jasnoszare tło */
+  color: #333; /* Ciemny tekst */
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.accordion .btn-link {
+  color: #171204; /* Ciemny kolor linka */
+  text-decoration: none;
+}
+
+.accordion .btn-link:hover {
+  text-decoration: none;
+  color: #007bff; /* Kolor hover */
+}
+
+.accordion .card {
+  border: 1px solid #ddd;
+}
+
+
+
+.img-fluid {
+  max-width: 80%;
+  height: auto;
+}
+
+.shadow {
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+}

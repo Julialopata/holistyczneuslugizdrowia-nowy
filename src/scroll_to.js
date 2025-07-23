@@ -3,6 +3,7 @@ const scrollToSection = (id) => {
     if (element) {
         element.scrollIntoView({ behavior: "smooth" });
     }
+    
 };
 
 export default scrollToSection;

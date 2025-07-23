@@ -117,9 +117,24 @@ const OtherServicesPage = () => {
                                             Lampa TDP
                                         </a>
                                     </li>
-                                
-                                </ul>
 
+                                    <li className="nav-item icon-xs">
+                                       <a className="nav-link" id="tab12-list" data-toggle="pill" href="#tab-12"
+                                          role="tab"
+                                          aria-controls="tab-12" aria-selected="false">
+                                           Misy tybetańskie
+                                        </a>
+                                    </li>
+                                    <li className="nav-item icon-xs">
+  <a className="nav-link" id="tab13-list" data-toggle="pill" href="#tab-13"
+     role="tab" aria-controls="tab-13" aria-selected="false">
+     Terapia światłem
+  </a>
+</li>
+
+
+                                </ul>
+                                
                             </div>
                             {/* END TABS NAVIGATION */}
 
@@ -632,7 +647,130 @@ const OtherServicesPage = () => {
             </div>
         </div>
     </div>
+</div><div className="tab-pane fade" id="tab-12" role="tabpanel" aria-labelledby="tab12-list">
+    <div className="row d-flex align-items-center">
+        <div className="col-lg-6">
+            <div className="tab-img">
+                <img className="img-fluid" src="/images/misy.png" alt="Misy tybetańskie – terapia dźwiękiem"/>
+            </div>
+        </div>
+
+        <div className="col-lg-6">
+            <div className="txt-block pc-30">
+                <h3 className="h3-md steelblue-color">Misy tybetańskie – terapia dźwiękiem i wibracją</h3>
+
+                <p>Zatrzymaj się na chwilę. Wsłuchaj się w dźwięki, które poruszają ciało i duszę.  
+                   Terapia dźwiękiem z użyciem mis tybetańskich to głęboko relaksująca metoda pracy z ciałem i emocjami, oparta na wibracji i harmonii.
+                </p>
+
+                <p>Podczas sesji misy są układane w określonych miejscach wokół ciała lub bezpośrednio na nim.  
+                   Ich subtelne, lecz głęboko odczuwalne brzmienia wpływają na każdą komórkę organizmu, wspierając procesy samoregulacji i regeneracji.
+                </p>
+
+                <p><b>Korzyści terapii misami:</b></p>
+                <ul>
+                    <li>🔸 Redukcja stresu i napięcia</li>
+                    <li>🔸 Wyciszenie umysłu i poprawa snu</li>
+                    <li>🔸 Harmonizacja układu nerwowego</li>
+                    <li>🔸 Wspomaganie pracy narządów poprzez rezonans</li>
+                    <li>🔸 Głęboka relaksacja i powrót do równowagi</li>
+                </ul>
+
+                <p><b>Przeciwwskazania:</b> rozrusznik serca, ciąża (I trymestr), padaczka, zaawansowane choroby psychiczne, świeżo przebyte operacje, zakrzepica, udar, nowotwory (w trakcie leczenia), dzieci poniżej 7. roku życia – po indywidualnej konsultacji.</p>
+
+                <p>To doskonały wybór dla osób szukających ukojenia i chcących odzyskać wewnętrzny spokój.  
+                   Zapraszam do mojego gabinetu – pozwól sobie na chwilę prawdziwego wyciszenia.
+                </p>
+            </div>
+        </div>
+    </div>
 </div>
+<div className="tab-pane fade" id="tab-13" role="tabpanel" aria-labelledby="tab13-list">
+  <div className="txt-block pc-30">
+
+    <h3 className="h3-md steelblue-color text-center">Terapia światłem – wybierz metodę</h3>
+
+    <div className="accordion mt-4" id="lightTherapyAccordion">
+
+      <div className="card">
+        <div className="card-header" id="headingHolistic">
+          <h5 className="mb-0">
+            <button className="btn btn-link" type="button" data-toggle="collapse" data-target="#collapseHolistic" aria-expanded="true" aria-controls="collapseHolistic">
+              Światłoterapia Holistyczna z Zabiegiem Regeneracyjnym Skóry ✨🌿
+            </button>
+          </h5>
+        </div>
+
+        <div id="collapseHolistic" className="collapse" aria-labelledby="headingHolistic" data-parent="#lightTherapyAccordion">
+          <div className="card-body">
+            <p>Twoja skóra potrzebuje oddechu, ukojenia i głębokiej regeneracji?  
+            Zapraszam Cię na wyjątkowy zabieg światłoterapii rozszerzony o działanie głęboko odżywczych kosmetyków Forever, Sativa lub TianDe – dopasowanych indywidualnie do potrzeb Twojej skóry 💧🌸</p>
+
+            <p><strong>💡 Na czym polega zabieg?</strong></p>
+            <ul>
+              <li>✨ Działanie światła LED pobudza fibroblasty do produkcji kolagenu i elastyny</li>
+              <li>✨ Skóra staje się bardziej jędrna, napięta i gładka</li>
+              <li>✨ Kosmetyki naturalne – aloesowe, konopne lub ziołowe – wnikają głęboko i wspierają odbudowę naskórka</li>
+              <li>✨ Terapia pomaga spłycić drobne zmarszczki, zmniejszyć pory i blizny potrądzikowe</li>
+              <li>✨ Wspiera skórę trądzikową i problematyczną, działa łagodząco i przeciwzapalnie</li>
+            </ul>
+
+            <p>🌿 To nie tylko zabieg kosmetyczny – to chwila dla Ciebie, ukojenie ciała, zmysłów i emocji.</p>
+             <div className="col-md-6 text-center">
+      <img src="/images/swiatloterapia2.png" alt="Światłoterapia Holistyczna" className="img-fluid rounded" />
+    </div>
+          </div>
+        </div>
+      </div>
+
+      <div className="card">
+        <div className="card-header" id="headingLED">
+          <h5 className="mb-0">
+            <button className="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#collapseLED" aria-expanded="false" aria-controls="collapseLED">
+              Światłoterapia LED – Głęboka Regeneracja Skóry i Zmysłów 🌿
+            </button>
+          </h5>
+        </div>
+
+        <div id="collapseLED" className="collapse" aria-labelledby="headingLED" data-parent="#lightTherapyAccordion">
+          <div className="card-body">
+            <p>Zatrzymaj się na chwilę. Oddychaj. Daj swojej skórze to, czego naprawdę potrzebuje – światło, ukojenie i naturalne wsparcie od wewnątrz.</p>
+
+            <p><strong>🌟 Dla kogo?</strong></p>
+            <ul>
+              <li>✔️ Dla osób z cerą zmęczoną, odwodnioną</li>
+              <li>✔️ Dla osób z trądzikiem, podrażnieniami</li>
+              <li>✔️ Dla skóry dojrzałej, z utratą jędrności</li>
+              <li>✔️ Dla każdego, kto potrzebuje odprężenia bez bólu i inwazyjnych metod</li>
+            </ul>
+
+            <p><strong>💧 Co zawiera zabieg?</strong></p>
+            <ul>
+              <li>– 30 minut działania światła LED</li>
+              <li>– indywidualny dobór barwy światła</li>
+              <li>– delikatna mgiełka nawilżająca</li>
+              <li>– spokojna przestrzeń do wyciszenia i regeneracji</li>
+            </ul>
+
+            <p><strong>🌈 Jakie światło? I po co?</strong></p>
+            <ul>
+              <li>🔴 <strong>Czerwone (620–630 nm)</strong> – stymuluje kolagen, poprawia jędrność i elastyczność</li>
+              <li>🔵 <strong>Niebieskie (465–475 nm)</strong> – działa antybakteryjnie, idealne dla skóry trądzikowej</li>
+              <li>🟢 <strong>Zielone (520–530 nm)</strong> – koi, zmniejsza zaczerwienienia i wyrównuje koloryt</li>
+            </ul>
+            <div className="col-md-6 text-center">
+      <img src="/images/swiatloterapia1.png" alt="Światłoterapia Holistyczna" className="img-fluid rounded" />
+    </div>
+
+          </div>
+        </div>
+      </div>
+
+    </div>
+
+  </div>
+</div>
+
 
 <div className="tab-pane fade" id="tab-10" role="tabpanel" aria-labelledby="tab10-list">
     <div className="row d-flex align-items-center">
@@ -796,10 +934,60 @@ const OtherServicesPage = () => {
         </a>
     </div>
 </div>
+</section>
 
-    
+<section className="pakiet-harmonia">
+  <h2>Ciepło i Puls Życia – Holistyczna Regeneracja</h2>
+  <p className="pakiet-opis">
+    Autorska terapia łącząca lampę TDP, pulsing i ciepłe kamienie — dla głębokiego rozluźnienia, regeneracji i harmonii ciała oraz umysłu.
+  </p>
+
+  <div className="pakiet-container">
+    <div className="pakiet-sekcja">
+      <h3>🌡️ Sesja z lampą TDP (25–30 minut)</h3>
+      <ul>
+        <li>✅ Indywidualne dopasowanie do wybranego obszaru ciała</li>
+        <li>✅ Promieniowanie podczerwone + mikroelementy</li>
+        <li>✅ Poprawa mikrokrążenia, łagodzenie bólu, regeneracja tkanek</li>
+        <li>✅ Rozluźnienie napięć mięśniowych</li>
+      </ul>
+    </div>
+
+    <div className="pakiet-sekcja">
+      <h3>🌊 Pulsing regeneracyjny (15–20 minut)</h3>
+      <ul>
+        <li>✅ Delikatna, kołysząca praca z ciałem w ubraniu</li>
+        <li>✅ Pomaga rozładować napięcia i zintegrować efekty sesji</li>
+        <li>✅ Wprowadza w stan głębokiego relaksu</li>
+        <li>✅ Harmonizuje emocje i oddech</li>
+      </ul>
+    </div>
+
+    <div className="pakiet-sekcja">
+      <h3>🪨 Ciepłe kamienie na zakończenie (5–10 minut)</h3>
+      <ul>
+        <li>✅ Ułożone na plecach, brzuchu, dłoniach lub stopach</li>
+        <li>✅ Utrwalają efekt rozluźnienia i „uziemiają” po sesji</li>
+        <li>✅ Wspierają krążenie i termoregulację</li>
+      </ul>
+    </div>
+  </div>
+
+  <div className="pakiet-cena">
+    <h3>💰 Czas trwania i cena</h3>
+    <p>Całkowity czas sesji: <strong>ok. 70 minut</strong></p>
+    <p>Cena promocyjna: <strong>120 zł</strong></p>
+
+    <div className="zapisy">
+      <p>📅 <strong>Rezerwacja:</strong></p>
+      <a href="tel:791852526" className="phone-link">
+        <i className="fas fa-phone"></i> 791 852 526
+      </a>
+    </div>
+  </div>
 
 </section>
+
 
 
 

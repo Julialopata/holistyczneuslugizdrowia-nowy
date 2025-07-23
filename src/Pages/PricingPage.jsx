@@ -194,7 +194,6 @@ const PricingPage = () => {
 
 <section id="pulsing-cennik">
   <h2>Pulsing</h2>
-  <p><strong>Usługa dostępna od lipca 2025 r.</strong></p>
   <ul>
     <li>Pojedyńcza sesja Pulsingu - <strong><del>160 zł</del> 140 zł</strong></li>
   </ul>
@@ -210,6 +209,29 @@ const PricingPage = () => {
   <p>Czas trwania: <strong>30-60 minut</strong></p>
  
 </section>
+
+<section id="swiatlo-cennik">
+  <h2>Terapia Światłem</h2>
+  <ul>
+    <li>Podstawowa sesja terapii światłem - <strong>80 zł</strong></li>
+    <li>Holistyczna sesja terapii światłem - <strong>120 zł</strong></li>
+  </ul>
+  <p>Czas trwania:</p>
+  <ul>
+    <li>Podstawowa - <strong>30 minut</strong></li>
+    <li>Holistyczna - <strong>40–50 minut</strong></li>
+  </ul>
+</section>
+
+<section id="dzwiek-cennik">
+  <h2>Sesja Dźwięku</h2>
+  <ul>
+    <li>Pojedyncza sesja dźwięku - <strong>80 zł</strong></li>
+  </ul>
+  <p>Czas trwania: <strong>30 minut</strong></p>
+</section>
+
+
 
 </div>
 
